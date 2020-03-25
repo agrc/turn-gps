@@ -46,9 +46,10 @@ def fix(path):
 
     image.thumbnail((SQUARE, SQUARE))
 
+    path = Path(path)
     path = path.with_suffix('.jpg')
 
-    image.save(path)
+    image.save(str(path))
 
 
 def process_directory(path, recursive=False):
