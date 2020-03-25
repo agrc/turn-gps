@@ -45,6 +45,9 @@ def fix(path):
         pass
 
     image.thumbnail((SQUARE, SQUARE))
+
+    path = path.with_suffix('.jpg')
+
     image.save(path)
 
 

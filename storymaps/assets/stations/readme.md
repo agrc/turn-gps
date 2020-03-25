@@ -10,7 +10,3 @@ Rename them with 4-digit code_name-Antenna and Receiver like below and don't add
 - `UTAI_Antelope-Island-Desk.jpg`
 - `UTAI_Antelope-Island-Rack.jpg`
 - `UTAI_Antelope-Island-etcetcetc.jpg`
-
-use the following to fix the case of the file extensions
-
-E:\_GitHub\turn-gps\images\stations>rename *.JPG *.jpg
