@@ -1,0 +1,3240 @@
+                  NGS OPUS-PROJECTS NETWORK ADJUSTMENT REPORT
+                  ===========================================
+
+ All coordinate accuracies reported here are 1 times the formal
+ uncertainties from the solution. For additional information:
+ geodesy.noaa.gov/OPUS/Using_OPUS-Projects.html#accuracy
+
+ These positions were computed without any knowledge by the National
+ Geodetic Survey regarding the equipment or field operating procedures used.
+
+ SUBMITTED BY:                  sfernandez
+ SOLUTION FILE NAME:            network-final-F.sum
+ SOLUTION SOFTWARE:             GPSCOM(1504.22)
+ SOLUTION DATE:                 2019-01-14T15:26:34 UTC
+ STANDARD ERROR OF UNIT WEIGHT: 0.693
+ TOTAL NUMBER OF OBSERVATIONS:  1868906
+ TOTAL NUMBER OF MARKS:         124
+ NUMBER OF CONSTRAINED MARKS:   21
+
+ START TIME:                    2019-01-01T00:00:00 GPS
+ STOP TIME:                     2019-01-10T19:59:30 GPS
+ FREQUENCY:                     L1 -> ION-FREE (L6)
+ OBSERVATION INTERVAL:          30 s
+ ELEVATION CUTOFF:              15 deg
+ TROPO INTERVAL:                1800 s [STEP-OFFSET PARAMETERIZATION]
+ DD CORRELATIONS:               ON
+
+     INCLUDED SOLUTION            RMS    SOFTWARE         RUN DATE
+ ------------------------------------------------------------------------------
+  1) 2019-001 F1                 1.4 cm  page5(1603.24)   2019-01-11T17:57 UTC
+  2) 2019-001 F2                 1.4 cm  page5(1603.24)   2019-01-14T11:51 UTC
+  3) 2019-001 F3                 1.5 cm  page5(1603.24)   2019-01-14T12:17 UTC
+  4) 2019-001 F4                 1.3 cm  page5(1603.24)   2019-01-14T12:04 UTC
+  5) 2019-010 A                  1.2 cm  page5(1603.24)   2019-01-10T15:44 UTC
+
+   BASELINE      LENGTH         RMS       OBS   OMITTED    FIXED IN SOLUTION(S)
+ ------------------------------------------------------------------------------
+  utmn-uts2      4.824 km      0.8 cm    13353     6.0%   100.0%    5
+  fln1-upsa     18.127 km      1.0 cm    19221     1.6%   100.0%    4
+  utoc-utmn     18.797 km      1.7 cm     7869     8.5%   100.0%    3
+  mc01-mc03     20.657 km      0.8 cm     8563     0.5%   100.0%    1
+  nvpo-nvdb     23.129 km      1.5 cm     6782     8.0%   100.0%    1
+  p009-utju     26.107 km      1.3 cm     8189     4.5%   100.0%    3
+  azgv-azds     32.369 km      1.8 cm     8151     5.1%   100.0%    1
+  p009-utri     33.152 km      2.6 cm     6429    30.5%    97.8%    4
+  cof1-upsa     37.729 km      1.2 cm    19431     0.2%   100.0%    4
+  utl2-utmn     38.452 km      1.8 cm     7847     7.0%    98.7%    3
+  idby-idif     39.921 km      1.6 cm     7953     7.7%   100.0%    1
+  utmn-utem     41.767 km      2.3 cm     8241     3.5%    97.9%    2
+  p009-utbr     42.464 km      1.1 cm     8361     2.2%   100.0%    2
+  utmn-uthe     43.459 km      1.8 cm     8143     4.6%   100.0%    3
+  nvpo-nvnl     43.800 km      1.6 cm     6861     6.7%    99.1%    2
+  p675-p121     45.453 km      0.7 cm     8438     0.2%   100.0%    2
+  inv1-p146     49.822 km      1.6 cm    18421     5.3%    99.6%    4
+  p100-p121     49.873 km      1.0 cm     8409     0.5%    98.0%    2
+  p351-idha     51.366 km      1.4 cm     8496     0.7%    98.0%    1
+  utne-utmn     52.367 km      1.5 cm     8289     1.9%   100.0%    3
+  uthr-utmn     54.682 km      1.7 cm     8008     6.0%   100.0%    3
+  utpc-utmn     56.185 km      1.6 cm     8372     1.6%   100.0%    3
+  rno1-p146     60.364 km      1.2 cm    19195     0.6%   100.0%    4
+  utkm-utmn     60.978 km      1.4 cm     8251     3.2%   100.0%    3
+  p100-p675     61.893 km      0.9 cm    58065     0.4%   100.0%    1, 3, 4
+  utmn-utwb     62.896 km      1.7 cm     8101     4.4%   100.0%    4
+  p146-stea     64.719 km      1.3 cm    19219     0.8%   100.0%    4
+  utrs-p675     65.812 km      1.0 cm     8488     0.7%   100.0%    4
+  dot1-p146     69.795 km      1.2 cm    19162     0.8%   100.0%    4
+  p151-gerl     72.797 km      1.2 cm    19268     0.5%   100.0%    4
+  wwrf-p146     74.682 km      1.3 cm    19159     1.0%   100.0%    4
+  stea-p151     75.507 km      1.2 cm    19281     0.6%   100.0%    4
+  p675-idpo     76.327 km      0.9 cm     8524     0.4%   100.0%    1
+  zlc1-uts2     76.377 km      1.6 cm    14955     6.6%   100.0%    5
+  utmg-utmn     76.685 km      2.1 cm     8108     4.6%    91.7%    3
+  ssb2-p146     76.855 km      1.2 cm    19171     0.9%   100.0%    4
+  yer1-upsa     77.056 km      1.2 cm    19013     2.2%   100.0%    4
+  cti4-coco     78.113 km      1.3 cm     8576     0.3%   100.0%    1
+  upsa-wwrf     78.301 km      1.3 cm    19210     0.9%   100.0%    4
+  gard-p146     87.016 km      1.3 cm    19115     0.7%    99.1%    4
+  p008-azpg     90.075 km      1.0 cm     8411     2.1%   100.0%    1
+  p675-utln     90.199 km      1.5 cm     8116     4.9%   100.0%    3
+  egan-utgn     90.379 km      1.7 cm     8441     0.9%   100.0%    2
+  puc2-utmn     93.975 km      1.4 cm    13877     2.6%   100.0%    5
+  utp2-utmn     93.975 km      1.4 cm     8337     1.8%   100.0%    3
+  nvbc-azgv     96.464 km      1.8 cm     8047     5.8%   100.0%    1
+  utmt-utmn     97.780 km      1.7 cm     8308     2.3%   100.0%    3
+  mc01-utmb    105.600 km      1.2 cm     8419     1.4%   100.0%    3
+  nvh1-azgv    108.450 km      2.2 cm     8071     5.2%   100.0%    1
+  nvh2-azgv    110.935 km      1.8 cm     8162     4.0%   100.0%    1
+  cnc1-mc01    111.765 km      1.0 cm     3894     0.5%   100.0%    1
+  p146-p151    112.780 km      1.1 cm    57753     0.3%   100.0%    1, 2, 3
+  p675-utr1    121.993 km      1.1 cm     8375     1.2%   100.0%    4
+  utog-utmn    123.576 km      1.6 cm     8373     1.0%   100.0%    3
+  uthu-utmn    124.351 km      1.4 cm     8268     2.2%    98.7%    3
+  nvlv-azgv    126.189 km      1.9 cm     8208     3.3%    98.2%    1
+  p008-utmv    127.723 km      0.9 cm     7908     0.8%   100.0%    3
+  nvdb-azgv    130.743 km      1.9 cm     8041     5.3%    98.3%    1
+  upsa-p151    131.429 km      0.8 cm    57747     0.3%   100.0%    1, 2, 3
+  azgv-nvnl    132.364 km      1.8 cm     8217     3.2%   100.0%    2
+  nvpo-azgv    136.849 km      2.2 cm    29614    10.0%   100.0%    3, 4
+  cti4-utmc    138.136 km      1.4 cm     8492     0.9%   100.0%    3
+  nvkp-azgv    139.874 km      1.9 cm     8130     4.3%    98.0%    1
+  utrc-p675    141.052 km      1.3 cm     8317     1.0%   100.0%    4
+  mc01-utgv    141.454 km      1.0 cm     8420     1.1%   100.0%    2
+  cti4-utel    141.698 km      1.2 cm     8477     1.0%   100.0%    2
+  p032-wysi    147.243 km      1.5 cm     8398     0.6%    98.4%    4
+  burn-idmn    149.879 km      1.2 cm     8367     1.3%   100.0%    1
+  p030-zlc1    161.292 km      1.3 cm    14412     4.8%   100.0%    5
+  nvmq-azgv    173.202 km      2.0 cm     8163     3.4%    95.2%    1
+  utso-p675    173.691 km      1.6 cm     8253     1.2%   100.0%    4
+  mc01-utuc    174.074 km      1.2 cm     8360     1.1%   100.0%    4
+  egan-utwe    175.230 km      2.5 cm     7151    15.7%    81.3%    4
+  p009-puc2    176.953 km      1.0 cm    14769     2.4%   100.0%    5
+  p394-idmn    177.201 km      1.1 cm     8399     0.7%   100.0%    1
+  utsl-p675    177.800 km      1.0 cm     8257     2.0%   100.0%    4
+  utln-utmn    178.057 km      1.9 cm     7750     8.7%   100.0%    3
+  nvcs-azgv    181.791 km      1.8 cm     8038     5.0%   100.0%    1
+  utmn-utmn    185.061 km      1.7 cm     8282     1.8%    98.6%    3
+  p008-uttp    185.455 km      1.0 cm     8421     1.0%   100.0%    4
+  utwb-p675    185.892 km      1.2 cm     8297     1.2%   100.0%    4
+  p009-azpg    186.871 km      1.1 cm     8078     5.0%   100.0%    1
+  wyke-p675    187.049 km      1.0 cm     8286     1.2%   100.0%    4
+  utlt-utmn    188.492 km      1.4 cm     8253     1.7%   100.0%    3
+  utwa-p675    191.016 km      0.9 cm     8221     2.1%   100.0%    4
+  utmn-p009    192.580 km      1.3 cm    18247     4.4%   100.0%    1
+  utlo-utmn    193.551 km      1.8 cm     8193     2.1%    98.4%    3
+  idby-p675    194.277 km      1.3 cm    56796     1.1%   100.0%    2, 3, 4
+  utwe-p675    194.582 km      2.5 cm     7090    16.2%    97.3%    4
+  wydp-p675    196.462 km      1.2 cm     8275     1.2%   100.0%    4
+  egan-utmi    197.462 km      1.4 cm     8376     0.1%   100.0%    3
+  azgv-utsg    203.519 km      1.8 cm     8047     5.0%    98.2%    4
+  p121-utmn    206.330 km      1.3 cm     8153     1.6%   100.0%    2
+  idha-idby    206.803 km      1.6 cm     8199     2.8%    98.0%    1
+  utju-utmn    217.737 km      1.7 cm     8104     4.0%   100.0%    3
+  p008-utbl    221.570 km      1.0 cm     8342     1.5%   100.0%    2
+  p032-utmn    222.031 km      1.2 cm     8353     0.5%    97.9%    3
+  p032-cnc1    225.582 km      0.8 cm     3837     0.6%   100.0%    1
+  cti4-mc01    225.597 km      1.1 cm    19080     0.6%   100.0%    4
+  burn-p394    228.425 km      1.1 cm    54315     0.3%    98.4%    2, 3, 4
+  utmi-utmn    228.783 km      1.6 cm     8249     2.1%   100.0%    3
+  azgv-uthn    230.905 km      2.1 cm     8004     5.4%    97.8%    3
+  wybf-p675    233.104 km      1.2 cm     8284     0.8%   100.0%    4
+  p351-idby    236.188 km      1.3 cm    56232     1.4%   100.0%    2, 3, 4
+  utmb-utmn    248.070 km      1.5 cm     8163     3.3%   100.0%    3
+  egan-p009    254.455 km      1.0 cm    18745     1.7%   100.0%    1
+  utbe-nvpo    254.547 km      1.4 cm     6792     6.2%   100.0%    2
+  utta-p675    266.709 km      1.2 cm     8300     0.7%   100.0%    4
+  p394-p351    267.824 km      0.9 cm    56736     0.2%    99.1%    2, 3, 4
+  gerl-burn    268.152 km      1.3 cm    18053     0.5%   100.0%    4
+  utls-utmn    286.114 km      1.4 cm     8276     1.6%   100.0%    3
+  utce-nvpo    289.538 km      1.4 cm     6586     9.4%    98.5%    2
+  wyrs-p675    299.667 km      1.1 cm     8248     0.8%   100.0%    4
+  azpg-azgv    311.311 km      1.8 cm     7892     6.4%    98.2%    1
+  utro-p675    312.261 km      0.9 cm     8205     1.7%   100.0%    4
+  p032-mc01    313.542 km      0.8 cm    18945     0.2%   100.0%    2
+  utuc-p675    330.844 km      1.1 cm     8233     0.7%   100.0%    4
+  p151-burn    333.562 km      1.0 cm    53991     0.2%   100.0%    1, 2, 3
+  utka-utmn    353.045 km      1.7 cm     7950     5.2%   100.0%    3
+  wysi-p675    353.594 km      1.5 cm     8168     1.2%   100.0%    4
+  utgn-nvpo    355.342 km      1.7 cm     6580     8.9%    97.2%    2
+  uthn-utmn    360.338 km      1.9 cm     7898     5.6%   100.0%    3
+  utbr-nvpo    362.171 km      1.3 cm     6669     7.4%    99.2%    2
+  idbo-idby    362.495 km      1.6 cm     8205     1.3%   100.0%    1
+  utmv-utmn    370.400 km      1.4 cm     7618     2.2%    98.4%    3
+  idmn-idby    371.689 km      1.4 cm     8115     2.3%   100.0%    1
+  utmc-utmn    377.058 km      1.4 cm     8157     2.5%    98.0%    3
+  utri-p675    386.596 km      2.6 cm     6403    26.7%    95.2%    4
+  utfi-nvpo    436.379 km      1.6 cm     6657     7.1%    98.4%    2
+  utde-nvpo    456.521 km      1.6 cm     6584     7.7%   100.0%    2
+  idss-mc01    475.019 km      0.9 cm     8205     0.4%    97.8%    1
+  p106-nvpo    482.063 km      1.3 cm     6664     6.6%    99.2%    2
+  utha-nvpo    501.763 km      1.5 cm     6587     7.8%    98.3%    2
+  uttp-p675    511.941 km      0.9 cm     8161     0.7%    98.0%    4
+  idpo-mc01    532.393 km      1.0 cm     8137     0.7%    97.9%    1
+  p016-nvpo    533.841 km      1.2 cm     6575     7.1%   100.0%    2
+  ute2-nvpo    535.011 km      1.5 cm     6580     7.5%    99.2%    2
+  coco-azgv    554.678 km      1.8 cm     8013     2.7%    98.5%    1
+  idbf-mc01    563.910 km      1.1 cm     7968     2.5%   100.0%    1
+  utbl-nvpo    567.968 km      1.4 cm     6495     8.3%    98.3%    2
+  idif-mc01    573.264 km      1.3 cm     7876     3.7%    98.8%    1
+  utgk-nvpo    575.842 km      2.1 cm     6507     8.2%   100.0%    2
+  utem-nvpo    576.846 km      2.2 cm     6519     8.3%    95.0%    2
+  utgr-nvpo    579.160 km      1.5 cm     6534     8.0%    99.2%    2
+  utgv-nvpo    580.134 km      1.3 cm     6516     8.4%   100.0%    2
+  utsg-p675    582.228 km      1.0 cm     7932     2.9%    97.8%    4
+  idru-mc01    591.819 km      1.0 cm     8019     1.7%   100.0%    1
+  utdr-nvpo    598.440 km      1.6 cm     6426     9.7%    96.7%    2
+  utel-nvpo    602.768 km      1.3 cm     6540     8.0%    98.0%    2
+  mc04-azgv    604.644 km      1.8 cm     7929     3.5%   100.0%    1
+  mc09-azgv    606.973 km      1.7 cm     7956     2.9%   100.0%    1
+  utcr-nvpo    607.829 km      1.6 cm     6047    16.8%    98.3%    2
+  utbo-nvpo    631.115 km      1.8 cm     6027    16.4%    98.5%    2
+  utai-nvpo    633.117 km      1.5 cm     6582     6.9%    99.1%    2
+  idtf-mc01    633.384 km      1.4 cm     3605     0.4%   100.0%    1
+  utd2-nvpo    646.908 km      1.7 cm     6471     8.5%    97.6%    2
+  mc03-azgv    656.163 km      1.7 cm     7991     2.3%    98.0%    1
+  utec-nvpo    678.639 km      1.5 cm     6433     7.8%    97.4%    2
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ UNCONSTRAINED MARKS
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      azds (azds    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2143528.392 m    0.001 m         -2143529.291 m    0.001 m
+ Y:               -4734336.142 m    0.001 m         -4734334.811 m    0.001 m
+ Z:                3686666.247 m    0.001 m          3686666.106 m    0.001 m
+ LAT:           35 31 59.26607      0.000 m       35 31 59.27822      0.000 m
+ E LON:        245 38 26.80881      0.000 m      245 38 26.75451      0.000 m
+ W LON:        114 21 33.19119      0.000 m      114 21 33.24549      0.000 m
+ EL HGT:               871.389 m    0.001 m              870.621 m    0.001 m
+ ORTHO HGT:            899.920 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (0203 AZ W)
+ NORTHING (Y)      3935375.775 m         502904.066 m
+ EASTING (X)        739429.901 m         158111.908 m
+ CONVERGENCE        1.53548056 deg       0.35407222 deg
+ POINT SCALE        1.00030650           0.99997093
+ COMBINED FACTOR    1.00016971           0.99983418
+
+ US NATIONAL GRID DESIGNATOR: 11SQV3942935375 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      azpg (azpg    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1868673.073 m    0.000 m         -1868673.962 m    0.000 m
+ Y:               -4752980.277 m    0.001 m         -4752978.949 m    0.001 m
+ Z:                3810075.573 m    0.001 m          3810075.442 m    0.001 m
+ LAT:           36 54 31.19165      0.000 m       36 54 31.20599      0.000 m
+ E LON:        248 32 14.36344      0.000 m      248 32 14.31041      0.000 m
+ W LON:        111 27 45.63656      0.000 m      111 27 45.68959      0.000 m
+ EL HGT:              1302.742 m    0.001 m             1301.936 m    0.001 m
+ ORTHO HGT:           1326.237 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0202 AZ C)
+ NORTHING (Y)      4084840.229 m         655431.226 m
+ EASTING (X)        458783.522 m         253814.752 m
+ CONVERGENCE        0.27786111 deg       0.27264444 deg
+ POINT SCALE        0.99962093           0.99992016
+ COMBINED FACTOR    0.99941661           0.99971577
+
+ US NATIONAL GRID DESIGNATOR: 12SVF5878384840 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      cnc1 (cnc1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0005)
+ X:               -1574541.114 m    0.001 m         -1574542.016 m    0.001 m
+ Y:               -4627947.630 m    0.001 m         -4627946.325 m    0.001 m
+ Z:                4085603.244 m    0.001 m          4085603.138 m    0.001 m
+ LAT:           40 04 37.56800      0.000 m       40 04 37.58508      0.000 m
+ E LON:        251 12 37.57730      0.000 m      251 12 37.52352      0.000 m
+ W LON:        108 47 22.42270      0.000 m      108 47 22.47648      0.000 m
+ EL HGT:              1651.419 m    0.002 m             1650.628 m    0.002 m
+ ORTHO HGT:           1667.958 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0501 CO N)
+ NORTHING (Y)      4438656.224 m         392584.988 m
+ EASTING (X)        688478.043 m         633884.829 m
+ CONVERGENCE        1.42353889 deg      -2.12549722 deg
+ POINT SCALE        1.00003733           0.99996141
+ COMBINED FACTOR    0.99977832           0.99970242
+
+ US NATIONAL GRID DESIGNATOR: 12TXK8847838656 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      coco (coco    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1622263.227 m    0.000 m         -1622264.113 m    0.000 m
+ Y:               -4815626.039 m    0.001 m         -4815624.704 m    0.001 m
+ Z:                3844745.501 m    0.001 m          3844745.369 m    0.001 m
+ LAT:           37 17 48.64463      0.000 m       37 17 48.66052      0.000 m
+ E LON:        251 22 57.44578      0.000 m      251 22 57.39441      0.000 m
+ W LON:        108 37 02.55422      0.000 m      108 37 02.60559      0.000 m
+ EL HGT:              1804.649 m    0.001 m             1803.787 m    0.001 m
+ ORTHO HGT:           1824.288 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0503 CO S)
+ NORTHING (Y)      4130464.864 m         379352.062 m
+ EASTING (X)        711185.853 m         638055.705 m
+ CONVERGENCE        1.44427222 deg      -1.91213056 deg
+ POINT SCALE        1.00014942           0.99998908
+ COMBINED FACTOR    0.99986626           0.99970597
+
+ US NATIONAL GRID DESIGNATOR: 12SYG1118530464 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      cof1 (cof1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2404166.724 m    0.000 m         -2404167.671 m    0.000 m
+ Y:               -4294597.775 m    0.001 m         -4294596.461 m    0.001 m
+ Z:                4045091.778 m    0.001 m          4045091.718 m    0.001 m
+ LAT:           39 36 18.05110      0.000 m       39 36 18.06373      0.000 m
+ E LON:        240 45 33.77140      0.000 m      240 45 33.70986      0.000 m
+ W LON:        119 14 26.22860      0.000 m      119 14 26.29014      0.000 m
+ EL HGT:              1252.486 m    0.001 m             1251.921 m    0.001 m
+ ORTHO HGT:           1276.625 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4386317.648 m        4538967.614 m
+ EASTING (X)        307634.725 m         743555.190 m
+ CONVERGENCE       -1.42881389 deg       0.41902500 deg
+ POINT SCALE        1.00005561           0.99993921
+ COMBINED FACTOR    0.99985914           0.99974276
+
+ US NATIONAL GRID DESIGNATOR: 11SLD0763486317 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      dot1 (dot1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2459013.424 m    0.000 m         -2459014.379 m    0.000 m
+ Y:               -4300042.142 m    0.001 m         -4300040.814 m    0.001 m
+ Z:                4006672.376 m    0.001 m          4006672.321 m    0.001 m
+ LAT:           39 09 22.30098      0.000 m       39 09 22.31348      0.000 m
+ E LON:        240 14 11.66972      0.000 m      240 14 11.60774      0.000 m
+ W LON:        119 45 48.33028      0.000 m      119 45 48.39226      0.000 m
+ EL HGT:              1416.339 m    0.001 m             1415.778 m    0.001 m
+ ORTHO HGT:           1440.775 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4337747.495 m        4489600.303 m
+ EASTING (X)        261218.223 m         698006.757 m
+ CONVERGENCE       -1.74575278 deg       0.74521667 deg
+ POINT SCALE        1.00030211           1.00002805
+ COMBINED FACTOR    1.00007988           0.99980588
+
+ US NATIONAL GRID DESIGNATOR: 11SKD6121837747 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      fln1 (fln1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2373022.483 m    0.000 m         -2373023.424 m    0.000 m
+ Y:               -4322991.318 m    0.001 m         -4322990.005 m    0.001 m
+ Z:                4033198.147 m    0.001 m          4033198.083 m    0.001 m
+ LAT:           39 27 59.82865      0.000 m       39 27 59.84143      0.000 m
+ E LON:        241 14 10.56021      0.000 m      241 14 10.49927      0.000 m
+ W LON:        118 45 49.43979      0.000 m      118 45 49.50073      0.000 m
+ EL HGT:              1187.861 m    0.001 m             1187.281 m    0.001 m
+ ORTHO HGT:           1212.423 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4370044.469 m        4523412.864 m
+ EASTING (X)        348278.786 m         784477.312 m
+ CONVERGENCE       -1.12129167 deg       0.11466667 deg
+ POINT SCALE        0.99988342           0.99990297
+ COMBINED FACTOR    0.99969712           0.99971666
+
+ US NATIONAL GRID DESIGNATOR: 11SLD4827870044 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      gard (gard    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2462137.095 m    0.000 m         -2462138.048 m    0.000 m
+ Y:               -4317957.193 m    0.001 m         -4317955.861 m    0.001 m
+ Z:                3985701.848 m    0.001 m          3985701.794 m    0.001 m
+ LAT:           38 54 44.92548      0.000 m       38 54 44.93808      0.000 m
+ E LON:        240 18 28.19501      0.000 m      240 18 28.13328      0.000 m
+ W LON:        119 41 31.80499      0.000 m      119 41 31.86672      0.000 m
+ EL HGT:              1496.984 m    0.001 m             1496.416 m    0.001 m
+ ORTHO HGT:           1521.625 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4310510.474 m        4462467.916 m
+ EASTING (X)        266575.226 m         703835.751 m
+ CONVERGENCE       -1.69180000 deg       0.69654722 deg
+ POINT SCALE        1.00027099           1.00001384
+ COMBINED FACTOR    1.00003611           0.99977902
+
+ US NATIONAL GRID DESIGNATOR: 11SKD6657510510 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      gerl (gerl    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2376482.842 m    0.000 m         -2376483.791 m    0.000 m
+ Y:               -4224324.909 m    0.001 m         -4224323.615 m    0.001 m
+ Z:                4133768.697 m    0.001 m          4133768.640 m    0.001 m
+ LAT:           40 38 59.29766      0.000 m       40 38 59.31024      0.000 m
+ E LON:        240 38 20.95705      0.000 m      240 38 20.89485      0.000 m
+ W LON:        119 21 39.04295      0.000 m      119 21 39.10515      0.000 m
+ EL HGT:              1187.300 m    0.001 m             1186.760 m    0.001 m
+ ORTHO HGT:           1210.057 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4502563.012 m        4655050.778 m
+ EASTING (X)        300393.483 m         734245.151 m
+ CONVERGENCE       -1.53844167 deg       0.50651667 deg
+ POINT SCALE        1.00009044           0.99995320
+ COMBINED FACTOR    0.99990421           0.99976700
+
+ US NATIONAL GRID DESIGNATOR: 11TLF0039302563 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idbf (idbf    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1781024.308 m    0.000 m         -1781025.242 m    0.000 m
+ Y:               -4303869.227 m    0.001 m         -4303867.970 m    0.001 m
+ Z:                4344586.512 m    0.001 m          4344586.432 m    0.001 m
+ LAT:           43 11 56.97227      0.000 m       43 11 56.98820      0.000 m
+ E LON:        247 31 09.41630      0.000 m      247 31 09.35680      0.000 m
+ W LON:        112 28 50.58370      0.000 m      112 28 50.64320      0.000 m
+ EL HGT:              1357.772 m    0.001 m             1357.131 m    0.001 m
+ ORTHO HGT:           1370.366 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1101 ID E)
+ NORTHING (Y)      4783995.678 m         170270.779 m
+ EASTING (X)        379698.812 m         174476.174 m
+ CONVERGENCE       -1.01372778 deg       0.21498056 deg
+ POINT SCALE        0.99977803           0.99995538
+ COMBINED FACTOR    0.99956520           0.99974251
+
+ US NATIONAL GRID DESIGNATOR: 12TUN7969883995 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idbo (idbo    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2047876.945 m    0.000 m         -2047877.887 m    0.000 m
+ Y:               -4148734.693 m    0.001 m         -4148733.449 m    0.001 m
+ Z:                4376777.345 m    0.001 m          4376777.282 m    0.001 m
+ LAT:           43 36 08.90509      0.000 m       43 36 08.91922      0.000 m
+ E LON:        243 43 42.13415      0.000 m      243 43 42.07195      0.000 m
+ W LON:        116 16 17.86585      0.000 m      116 16 17.92805      0.000 m
+ EL HGT:               817.916 m    0.001 m              817.367 m    0.001 m
+ ORTHO HGT:            834.861 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (1103 ID W)
+ NORTHING (Y)      4827979.701 m         215158.211 m
+ EASTING (X)        558785.029 m         757886.542 m
+ CONVERGENCE        0.50233611 deg       0.35974722 deg
+ POINT SCALE        0.99964250           0.99995514
+ COMBINED FACTOR    0.99951430           0.99982690
+
+ US NATIONAL GRID DESIGNATOR: 11TNJ5878527979 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idha (idha    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1907803.523 m    0.000 m         -1907804.463 m    0.000 m
+ Y:               -4222695.900 m    0.001 m         -4222694.649 m    0.001 m
+ Z:                4370554.453 m    0.001 m          4370554.383 m    0.001 m
+ LAT:           43 31 05.93520      0.000 m       43 31 05.95035      0.000 m
+ E LON:        245 41 11.99627      0.000 m      245 41 11.93520      0.000 m
+ W LON:        114 18 48.00373      0.000 m      114 18 48.06480      0.000 m
+ EL HGT:              1621.961 m    0.001 m             1621.368 m    0.001 m
+ ORTHO HGT:           1634.878 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (1102 ID C)
+ NORTHING (Y)      4821882.355 m         205726.912 m
+ EASTING (X)        717140.247 m         474667.545 m
+ CONVERGENCE        1.85072222 deg       0.21575833 deg
+ POINT SCALE        1.00018001           0.99995526
+ COMBINED FACTOR    0.99992568           0.99970099
+
+ US NATIONAL GRID DESIGNATOR: 11TQJ1714021882 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idif (idif    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1739642.425 m    0.000 m         -1739643.359 m    0.000 m
+ Y:               -4294543.159 m    0.001 m         -4294541.908 m    0.001 m
+ Z:                4370449.433 m    0.001 m          4370449.353 m    0.001 m
+ LAT:           43 31 06.88192      0.000 m       43 31 06.89807      0.000 m
+ E LON:        247 56 52.84708      0.000 m      247 56 52.78766      0.000 m
+ W LON:        112 03 07.15292      0.000 m      112 03 07.21234      0.000 m
+ EL HGT:              1438.670 m    0.001 m             1438.028 m    0.001 m
+ ORTHO HGT:           1450.367 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1101 ID E)
+ NORTHING (Y)      4818942.147 m         205714.820 m
+ EASTING (X)        414978.650 m         209271.585 m
+ CONVERGENCE        0.72443056 deg       0.07896667 deg
+ POINT SCALE        0.99968891           0.99994843
+ COMBINED FACTOR    0.99946343           0.99972289
+
+ US NATIONAL GRID DESIGNATOR: 12TVP1497818942 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idmn (idmn    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2056057.985 m    0.000 m         -2056058.928 m    0.000 m
+ Y:               -4144356.191 m    0.001 m         -4144354.945 m    0.001 m
+ Z:                4377042.926 m    0.001 m          4377042.865 m    0.001 m
+ LAT:           43 36 21.74452      0.000 m       43 36 21.75866      0.000 m
+ E LON:        243 36 48.65279      0.000 m      243 36 48.59045      0.000 m
+ W LON:        116 23 11.34721      0.000 m      116 23 11.40955      0.000 m
+ EL HGT:               786.899 m    0.001 m              786.352 m    0.001 m
+ ORTHO HGT:            803.938 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (1103 ID W)
+ NORTHING (Y)      4828300.933 m         215619.074 m
+ EASTING (X)        549512.340 m         748616.730 m
+ CONVERGENCE        0.42314722 deg       0.43899167 deg
+ POINT SCALE        0.99963015           0.99996580
+ COMBINED FACTOR    0.99950682           0.99984242
+
+ US NATIONAL GRID DESIGNATOR: 11TNJ4951228300 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idpo (idpo    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1787003.997 m    0.000 m         -1787004.935 m    0.000 m
+ Y:               -4328787.332 m    0.001 m         -4328786.068 m    0.001 m
+ Z:                4317505.301 m    0.001 m          4317505.220 m    0.001 m
+ LAT:           42 51 55.99520      0.000 m       42 51 56.01113      0.000 m
+ E LON:        247 34 05.71250      0.000 m      247 34 05.65306      0.000 m
+ W LON:        112 25 54.28750      0.000 m      112 25 54.34694      0.000 m
+ EL HGT:              1380.043 m    0.001 m             1379.394 m    0.001 m
+ ORTHO HGT:           1392.703 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1101 ID E)
+ NORTHING (Y)      4746879.177 m         133197.659 m
+ EASTING (X)        383045.655 m         178339.199 m
+ CONVERGENCE        0.97410000 deg       0.18033056 deg
+ POINT SCALE        0.99976828           0.99995314
+ COMBINED FACTOR    0.99955195           0.99973677
+
+ US NATIONAL GRID DESIGNATOR: 12TUN8304546879 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idru (idru    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1891950.445 m    0.000 m         -1891951.379 m    0.000 m
+ Y:               -4300690.312 m    0.001 m         -4300689.050 m    0.001 m
+ Z:                4300780.939 m    0.001 m          4300780.862 m    0.001 m
+ LAT:           42 39 41.37793      0.000 m       42 39 41.39319      0.000 m
+ E LON:        246 15 16.01613      0.000 m      246 15 15.95628      0.000 m
+ W LON:        113 44 43.98387      0.000 m      113 44 44.04372      0.000 m
+ EL HGT:              1264.542 m    0.001 m             1263.917 m    0.001 m
+ ORTHO HGT:           1278.882 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1102 ID C)
+ NORTHING (Y)      4726880.336 m         110527.472 m
+ EASTING (X)        274982.949 m         520860.452 m
+ CONVERGENCE       -1.86134444 deg       0.17243056 deg
+ POINT SCALE        1.00022298           0.99995272
+ COMBINED FACTOR    1.00002466           0.99975445
+
+ US NATIONAL GRID DESIGNATOR: 12TTN7498226880 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idss (idss    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1727846.907 m    0.000 m         -1727847.833 m    0.000 m
+ Y:               -4367636.530 m    0.001 m         -4367635.265 m    0.001 m
+ Z:                4303180.196 m    0.001 m          4303180.112 m    0.001 m
+ LAT:           42 41 10.57580      0.000 m       42 41 10.59214      0.000 m
+ E LON:        248 24 58.09060      0.000 m      248 24 58.03238      0.000 m
+ W LON:        111 35 01.90940      0.000 m      111 35 01.96762      0.000 m
+ EL HGT:              1817.977 m    0.001 m             1817.306 m    0.001 m
+ ORTHO HGT:           1830.093 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1101 ID E)
+ NORTHING (Y)      4726141.922 m         113413.036 m
+ EASTING (X)        452168.756 m         247760.934 m
+ CONVERGENCE        0.39585833 deg       0.39513889 deg
+ POINT SCALE        0.99962815           0.99997542
+ COMBINED FACTOR    0.99934323           0.99969040
+
+ US NATIONAL GRID DESIGNATOR: 12TVN5216826141 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idtf (idtf    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0005)
+ X:               -1949038.083 m    0.001 m         -1949039.018 m    0.001 m
+ Y:               -4281738.128 m    0.001 m         -4281736.866 m    0.001 m
+ Z:                4294036.984 m    0.001 m          4294036.909 m    0.001 m
+ LAT:           42 34 48.47593      0.000 m       42 34 48.49084      0.000 m
+ E LON:        245 31 30.26244      0.000 m      245 31 30.20219      0.000 m
+ W LON:        114 28 29.73756      0.000 m      114 28 29.79781      0.000 m
+ EL HGT:              1128.653 m    0.002 m             1128.041 m    0.002 m
+ ORTHO HGT:           1143.934 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (1102 ID C)
+ NORTHING (Y)      4717281.470 m         101567.798 m
+ EASTING (X)        707216.123 m         461013.361 m
+ CONVERGENCE        1.70912222 deg       0.32135000 deg
+ POINT SCALE        1.00012831           0.99996606
+ COMBINED FACTOR    0.99995131           0.99978909
+
+ US NATIONAL GRID DESIGNATOR: 11TQH0721617281 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      inv1 (inv1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2471379.274 m    0.000 m         -2471380.232 m    0.000 m
+ Y:               -4285650.750 m    0.001 m         -4285649.422 m    0.001 m
+ Z:                4015264.614 m    0.001 m          4015264.560 m    0.001 m
+ LAT:           39 15 07.68869      0.000 m       39 15 07.70111      0.000 m
+ E LON:        240 01 46.24086      0.000 m      240 01 46.17860      0.000 m
+ W LON:        119 58 13.75914      0.000 m      119 58 13.82140      0.000 m
+ EL HGT:              1948.495 m    0.001 m             1947.941 m    0.001 m
+ ORTHO HGT:           1972.289 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4348963.335 m        4500504.404 m
+ EASTING (X)        243672.449 m         680272.979 m
+ CONVERGENCE       -1.88055278 deg       0.87780556 deg
+ POINT SCALE        1.00040907           1.00007644
+ COMBINED FACTOR    1.00010334           0.99977081
+
+ US NATIONAL GRID DESIGNATOR: 11SKD4367248963 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      mc03 (mc03    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1589891.704 m    0.000 m         -1589892.601 m    0.000 m
+ Y:               -4688883.732 m    0.001 m         -4688882.417 m    0.001 m
+ Z:                4009554.408 m    0.001 m          4009554.294 m    0.001 m
+ LAT:           39 11 23.78498      0.000 m       39 11 23.80170      0.000 m
+ E LON:        251 16 09.81961      0.000 m      251 16 09.76662      0.000 m
+ W LON:        108 43 50.18039      0.000 m      108 43 50.23338      0.000 m
+ EL HGT:              1379.984 m    0.001 m             1379.170 m    0.001 m
+ ORTHO HGT:           1397.253 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0502 CO C)
+ NORTHING (Y)      4340308.221 m         460355.959 m
+ EASTING (X)        695994.793 m         635372.220 m
+ CONVERGENCE        1.43447222 deg      -2.03750833 deg
+ POINT SCALE        1.00007301           0.99993711
+ COMBINED FACTOR    0.99985653           0.99972066
+
+ US NATIONAL GRID DESIGNATOR: 12SXJ9599440308 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      mc04 (mc04    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1621264.011 m    0.000 m         -1621264.905 m    0.000 m
+ Y:               -4715485.572 m    0.001 m         -4715484.253 m    0.001 m
+ Z:                3965883.982 m    0.001 m          3965883.863 m    0.001 m
+ LAT:           38 41 02.97494      0.000 m       38 41 02.99131      0.000 m
+ E LON:        251 01 34.17642      0.000 m      251 01 34.12372      0.000 m
+ W LON:        108 58 25.82358      0.000 m      108 58 25.87628      0.000 m
+ EL HGT:              1401.690 m    0.001 m             1400.869 m    0.001 m
+ ORTHO HGT:           1419.963 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0502 CO C)
+ NORTHING (Y)      4283676.497 m         405026.517 m
+ EASTING (X)        676234.206 m         612227.384 m
+ CONVERGENCE        1.26673056 deg      -2.19091389 deg
+ POINT SCALE        0.99998248           0.99996222
+ COMBINED FACTOR    0.99976260           0.99974235
+
+ US NATIONAL GRID DESIGNATOR: 12SXH7623483676 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      mc09 (mc09    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1596798.599 m    0.000 m         -1596799.490 m    0.000 m
+ Y:               -4756284.738 m    0.001 m         -4756283.413 m    0.001 m
+ Z:                3927793.556 m    0.001 m          3927793.433 m    0.001 m
+ LAT:           38 14 35.61425      0.000 m       38 14 35.63062      0.000 m
+ E LON:        251 26 30.71682      0.000 m      251 26 30.66475      0.000 m
+ W LON:        108 33 29.28318      0.000 m      108 33 29.33525      0.000 m
+ EL HGT:              1793.806 m    0.001 m             1792.966 m    0.001 m
+ ORTHO HGT:           1812.392 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0503 CO S)
+ NORTHING (Y)      4235621.724 m         484158.485 m
+ EASTING (X)        713694.536 m         646743.577 m
+ CONVERGENCE        1.51208889 deg      -1.87579167 deg
+ POINT SCALE        1.00016243           0.99997083
+ COMBINED FACTOR    0.99988100           0.99968945
+
+ US NATIONAL GRID DESIGNATOR: 12SYH1369435621 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvbc (nvbc    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2172279.086 m    0.001 m         -2172279.992 m    0.001 m
+ Y:               -4689698.212 m    0.001 m         -4689696.887 m    0.001 m
+ Z:                3726184.110 m    0.001 m          3726183.972 m    0.001 m
+ LAT:           35 58 22.06449      0.000 m       35 58 22.07652      0.000 m
+ E LON:        245 08 46.74637      0.000 m      245 08 46.69132      0.000 m
+ W LON:        114 51 13.25363      0.000 m      114 51 13.30868      0.000 m
+ EL HGT:               740.412 m    0.001 m              739.666 m    0.001 m
+ ORTHO HGT:            768.740 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      3983060.849 m        8135898.350 m
+ EASTING (X)        693523.145 m         265804.657 m
+ CONVERGENCE        1.26114167 deg       0.42861389 deg
+ POINT SCALE        1.00006149           0.99995334
+ COMBINED FACTOR    0.99994529           0.99983715
+
+ US NATIONAL GRID DESIGNATOR: 11SPV9352383060 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvcs (nvcs    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2155163.831 m    0.001 m         -2155164.741 m    0.001 m
+ Y:               -4637604.657 m    0.001 m         -4637603.339 m    0.001 m
+ Z:                3799995.383 m    0.001 m          3799995.252 m    0.001 m
+ LAT:           36 47 57.59036      0.000 m       36 47 57.60273      0.000 m
+ E LON:        245 04 30.02265      0.000 m      245 04 29.96696      0.000 m
+ W LON:        114 55 29.97735      0.000 m      114 55 30.03304      0.000 m
+ EL HGT:               685.820 m    0.001 m              685.092 m    0.001 m
+ ORTHO HGT:            712.193 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      4074620.336 m        8227562.653 m
+ EASTING (X)        685121.474 m         258748.038 m
+ CONVERGENCE        1.24331111 deg       0.39436667 deg
+ POINT SCALE        1.00002221           0.99994251
+ COMBINED FACTOR    0.99991459           0.99983490
+
+ US NATIONAL GRID DESIGNATOR: 11SPA8512174620 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvdb (nvdb    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2204829.037 m    0.001 m         -2204829.945 m    0.001 m
+ Y:               -4666961.171 m    0.001 m         -4666959.848 m    0.001 m
+ Z:                3735571.967 m    0.001 m          3735571.830 m    0.001 m
+ LAT:           36 04 38.15519      0.000 m       36 04 38.16704      0.000 m
+ E LON:        244 42 44.56112      0.000 m      244 42 44.50572      0.000 m
+ W LON:        115 17 15.43888      0.000 m      115 17 15.49428      0.000 m
+ EL HGT:               760.286 m    0.001 m              759.553 m    0.001 m
+ ORTHO HGT:            787.968 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      3993875.424 m        8147283.428 m
+ EASTING (X)        654188.977 m         226633.773 m
+ CONVERGENCE        1.00857778 deg       0.17413889 deg
+ POINT SCALE        0.99989294           0.99990874
+ COMBINED FACTOR    0.99977364           0.99978944
+
+ US NATIONAL GRID DESIGNATOR: 11SPV5418893875 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvh1 (nvh1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2181211.791 m    0.001 m         -2181212.698 m    0.001 m
+ Y:               -4681307.311 m    0.001 m         -4681305.986 m    0.001 m
+ Z:                3731237.375 m    0.001 m          3731237.237 m    0.001 m
+ LAT:           36 01 48.03039      0.000 m       36 01 48.04238      0.000 m
+ E LON:        245 01 02.17377      0.000 m      245 01 02.11859      0.000 m
+ W LON:        114 58 57.82623      0.000 m      114 58 57.88141      0.000 m
+ EL HGT:               599.134 m    0.001 m              598.391 m    0.001 m
+ ORTHO HGT:            627.423 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      3989159.327 m        8142166.729 m
+ EASTING (X)        681754.558 m         254127.027 m
+ CONVERGENCE        1.18690278 deg       0.35328889 deg
+ POINT SCALE        1.00000706           0.99993609
+ COMBINED FACTOR    0.99991303           0.99984207
+
+ US NATIONAL GRID DESIGNATOR: 11SPV8175489159 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvh2 (nvh2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2192352.607 m    0.001 m         -2192353.513 m    0.001 m
+ Y:               -4680079.981 m    0.001 m         -4680078.657 m    0.001 m
+ Z:                3726571.051 m    0.001 m          3726570.913 m    0.001 m
+ LAT:           35 58 36.84529      0.000 m       35 58 36.85719      0.000 m
+ E LON:        244 53 58.44782      0.000 m      244 53 58.39264      0.000 m
+ W LON:        115 06 01.55218      0.000 m      115 06 01.60736      0.000 m
+ EL HGT:               771.419 m    0.001 m              770.678 m    0.001 m
+ ORTHO HGT:            799.519 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      3983054.651 m        8136215.555 m
+ EASTING (X)        671263.341 m         243548.740 m
+ CONVERGENCE        1.11619167 deg       0.28368889 deg
+ POINT SCALE        0.99996142           0.99992336
+ COMBINED FACTOR    0.99984037           0.99980231
+
+ US NATIONAL GRID DESIGNATOR: 11SPV7126383054 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvkp (nvkp    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2166712.716 m    0.001 m         -2166713.624 m    0.001 m
+ Y:               -4662105.524 m    0.001 m         -4662104.203 m    0.001 m
+ Z:                3763486.486 m    0.001 m          3763486.351 m    0.001 m
+ LAT:           36 23 22.99115      0.000 m       36 23 23.00332      0.000 m
+ E LON:        245 04 24.09313      0.000 m      245 04 24.03774      0.000 m
+ W LON:        114 55 35.90687      0.000 m      114 55 35.96226      0.000 m
+ EL HGT:               667.706 m    0.001 m              666.970 m    0.001 m
+ ORTHO HGT:            694.986 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      4029172.103 m        8182110.772 m
+ EASTING (X)        685955.317 m         258911.622 m
+ CONVERGENCE        1.23042500 deg       0.38961111 deg
+ POINT SCALE        1.00002606           0.99994275
+ COMBINED FACTOR    0.99992128           0.99983798
+
+ US NATIONAL GRID DESIGNATOR: 11SPA8595529172 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvlv (nvlv    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2196311.446 m    0.001 m         -2196312.354 m    0.001 m
+ Y:               -4669454.703 m    0.001 m         -4669453.380 m    0.001 m
+ Z:                3737272.460 m    0.001 m          3737272.323 m    0.001 m
+ LAT:           36 05 49.03419      0.000 m       36 05 49.04611      0.000 m
+ E LON:        244 48 34.97990      0.000 m      244 48 34.92455      0.000 m
+ W LON:        115 11 25.02010      0.000 m      115 11 25.07545      0.000 m
+ EL HGT:               649.634 m    0.001 m              648.898 m    0.001 m
+ ORTHO HGT:            677.597 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      3996218.252 m        8149498.917 m
+ EASTING (X)        662913.936 m         235391.952 m
+ CONVERGENCE        1.06643611 deg       0.23156944 deg
+ POINT SCALE        0.99992703           0.99991543
+ COMBINED FACTOR    0.99982509           0.99981349
+
+ US NATIONAL GRID DESIGNATOR: 11SPV6291396218 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvmq (nvmq    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2087068.615 m    0.000 m         -2087069.523 m    0.000 m
+ Y:               -4667729.260 m    0.001 m         -4667727.940 m    0.001 m
+ Z:                3800783.532 m    0.001 m          3800783.400 m    0.001 m
+ LAT:           36 48 34.31798      0.000 m       36 48 34.33076      0.000 m
+ E LON:        245 54 33.42124      0.000 m      245 54 33.36608      0.000 m
+ W LON:        114 05 26.57876      0.000 m      114 05 26.63392      0.000 m
+ EL HGT:               488.109 m    0.001 m              487.362 m    0.001 m
+ ORTHO HGT:            514.686 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      4077693.412 m        8229532.062 m
+ EASTING (X)        759532.579 m         333181.962 m
+ CONVERGENCE        1.74409167 deg       0.89444167 deg
+ POINT SCALE        1.00042990           1.00011845
+ COMBINED FACTOR    1.00035327           1.00004185
+
+ US NATIONAL GRID DESIGNATOR: 11SQA5953277693 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvnl (nvnl    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2187849.144 m    0.001 m         -2187850.052 m    0.001 m
+ Y:               -4665010.449 m    0.001 m         -4665009.127 m    0.001 m
+ Z:                3747550.207 m    0.001 m          3747550.071 m    0.001 m
+ LAT:           36 12 44.08344      0.000 m       36 12 44.09544      0.000 m
+ E LON:        244 52 25.79877      0.000 m      244 52 25.74340      0.000 m
+ W LON:        115 07 34.20123      0.000 m      115 07 34.25660      0.000 m
+ EL HGT:               560.433 m    0.001 m              559.698 m    0.001 m
+ ORTHO HGT:            588.468 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      4009117.547 m        8162315.956 m
+ EASTING (X)        668439.564 m         241105.089 m
+ CONVERGENCE        1.10728056 deg       0.27008889 deg
+ POINT SCALE        0.99994959           0.99992081
+ COMBINED FACTOR    0.99986164           0.99983287
+
+ US NATIONAL GRID DESIGNATOR: 11SPA6843909117 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p016 (p016    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1859798.221 m    0.000 m         -1859799.141 m    0.000 m
+ Y:               -4520853.602 m    0.001 m         -4520852.310 m    0.001 m
+ Z:                4085740.892 m    0.001 m          4085740.785 m    0.001 m
+ LAT:           40 04 41.22156      0.000 m       40 04 41.23653      0.000 m
+ E LON:        247 38 19.00131      0.000 m      247 38 18.94466      0.000 m
+ W LON:        112 21 40.99869      0.000 m      112 21 41.05534      0.000 m
+ EL HGT:              1731.254 m    0.001 m             1730.539 m    0.001 m
+ ORTHO HGT:           1749.029 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4437315.470 m        2194058.040 m
+ EASTING (X)        383922.923 m         426534.510 m
+ CONVERGENCE        0.87660278 deg       0.55178611 deg
+ POINT SCALE        0.99976587           0.99990780
+ COMBINED FACTOR    0.99949441           0.99963631
+
+ US NATIONAL GRID DESIGNATOR: 12TUK8392237315 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p106 (p106    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1868594.154 m    0.000 m         -1868595.069 m    0.000 m
+ Y:               -4564648.870 m    0.001 m         -4564647.571 m    0.001 m
+ Z:                4032777.517 m    0.001 m          4032777.404 m    0.001 m
+ LAT:           39 27 32.22696      0.000 m       39 27 32.24175      0.000 m
+ E LON:        247 44 15.60516      0.000 m      247 44 15.54917      0.000 m
+ W LON:        112 15 44.39484      0.000 m      112 15 44.45083      0.000 m
+ EL HGT:              1560.279 m    0.001 m             1559.547 m    0.001 m
+ ORTHO HGT:           1578.500 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4368469.346 m        2125244.405 m
+ EASTING (X)        391400.426 m         434396.702 m
+ CONVERGENCE        0.80232222 deg       0.48833333 deg
+ POINT SCALE        0.99974521           0.99992023
+ COMBINED FACTOR    0.99950054           0.99967552
+
+ US NATIONAL GRID DESIGNATOR: 12SUJ9140068469 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p121 (p121    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1837809.855 m    0.000 m         -1837810.787 m    0.000 m
+ Y:               -4393797.109 m    0.001 m         -4393795.836 m    0.001 m
+ Z:                4230318.239 m    0.001 m          4230318.148 m    0.001 m
+ LAT:           41 48 12.17919      0.000 m       41 48 12.19460      0.000 m
+ E LON:        247 18 06.20443      0.000 m      247 18 06.14594      0.000 m
+ W LON:        112 41 53.79557      0.000 m      112 41 53.85406      0.000 m
+ EL HGT:              1453.124 m    0.001 m             1452.456 m    0.001 m
+ ORTHO HGT:           1468.440 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4629340.391 m        1163941.555 m
+ EASTING (X)        358918.303 m         400419.674 m
+ CONVERGENCE       -1.13221667 deg       0.79008889 deg
+ POINT SCALE        0.99984493           1.00000332
+ COMBINED FACTOR    0.99961710           0.99977546
+
+ US NATIONAL GRID DESIGNATOR: 12TUM5891829340 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      rno1 (rno1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2454845.452 m    0.000 m         -2454846.408 m    0.000 m
+ Y:               -4271556.456 m    0.001 m         -4271555.135 m    0.001 m
+ Z:                4039524.580 m    0.001 m          4039524.526 m    0.001 m
+ LAT:           39 32 16.45274      0.000 m       39 32 16.46518      0.000 m
+ E LON:        240 06 51.11841      0.000 m      240 06 51.05612      0.000 m
+ W LON:        119 53 08.88159      0.000 m      119 53 08.94388      0.000 m
+ EL HGT:              1531.213 m    0.001 m             1530.663 m    0.001 m
+ ORTHO HGT:           1555.075 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4380448.789 m        4532121.071 m
+ EASTING (X)        251996.458 m         688040.572 m
+ CONVERGENCE       -1.83800278 deg       0.82922222 deg
+ POINT SCALE        1.00035732           1.00005428
+ COMBINED FACTOR    1.00011707           0.99981410
+
+ US NATIONAL GRID DESIGNATOR: 11SKD5199680448 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      ssb2 (ssb2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2439695.801 m    0.000 m         -2439696.755 m    0.000 m
+ Y:               -4273328.945 m    0.001 m         -4273327.628 m    0.001 m
+ Z:                4046500.573 m    0.001 m          4046500.517 m    0.001 m
+ LAT:           39 37 14.51113      0.000 m       39 37 14.52360      0.000 m
+ E LON:        240 16 38.73053      0.000 m      240 16 38.66843      0.000 m
+ W LON:        119 43 21.26947      0.000 m      119 43 21.33157      0.000 m
+ EL HGT:              1357.712 m    0.001 m             1357.159 m    0.001 m
+ ORTHO HGT:           1381.739 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4389201.957 m        4541122.477 m
+ EASTING (X)        266304.489 m         702188.206 m
+ CONVERGENCE       -1.73697778 deg       0.72655556 deg
+ POINT SCALE        1.00027244           1.00001775
+ COMBINED FACTOR    1.00005942           0.99980479
+
+ US NATIONAL GRID DESIGNATOR: 11SKD6630489201 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      stea (stea    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2451597.482 m    0.000 m         -2451598.439 m    0.000 m
+ Y:               -4266273.924 m    0.001 m         -4266272.605 m    0.001 m
+ Z:                4047027.643 m    0.001 m          4047027.588 m    0.001 m
+ LAT:           39 37 31.94137      0.000 m       39 37 31.95378      0.000 m
+ E LON:        240 06 58.82794      0.000 m      240 06 58.76563      0.000 m
+ W LON:        119 53 01.17206      0.000 m      119 53 01.23437      0.000 m
+ EL HGT:              1534.765 m    0.001 m             1534.216 m    0.001 m
+ ORTHO HGT:           1558.576 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4390171.229 m        4541847.810 m
+ EASTING (X)        252492.771 m         688365.382 m
+ CONVERGENCE       -1.84003611 deg       0.82939167 deg
+ POINT SCALE        1.00035428           1.00005338
+ COMBINED FACTOR    1.00011347           0.99981264
+
+ US NATIONAL GRID DESIGNATOR: 11SKD5249290171 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utai (utai    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1823434.688 m    0.000 m         -1823435.611 m    0.000 m
+ Y:               -4459058.339 m    0.001 m         -4459057.057 m    0.001 m
+ Z:                4167997.930 m    0.001 m          4167997.833 m    0.001 m
+ LAT:           41 03 22.50291      0.000 m       41 03 22.51836      0.000 m
+ E LON:        247 45 32.26670      0.000 m      247 45 32.20935      0.000 m
+ W LON:        112 14 27.73330      0.000 m      112 14 27.79065      0.000 m
+ EL HGT:              1312.645 m    0.001 m             1311.950 m    0.001 m
+ ORTHO HGT:           1329.606 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4545743.331 m        1080544.971 m
+ EASTING (X)        395714.535 m         437708.835 m
+ CONVERGENCE        0.81518611 deg       0.48860556 deg
+ POINT SCALE        0.99973385           0.99996257
+ COMBINED FACTOR    0.99952805           0.99975672
+
+ US NATIONAL GRID DESIGNATOR: 12TUL9571445743 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utbe (utbe    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -2027427.226 m    0.001 m         -2027428.138 m    0.001 m
+ Y:               -4629158.986 m    0.001 m         -4629157.674 m    0.001 m
+ Z:                3880660.348 m    0.001 m          3880660.223 m    0.001 m
+ LAT:           37 42 22.68907      0.000 m       37 42 22.70244      0.000 m
+ E LON:        246 20 53.09138      0.000 m      246 20 53.03581      0.000 m
+ W LON:        113 39 06.90862      0.000 m      113 39 06.96419      0.000 m
+ EL HGT:              1562.634 m    0.001 m             1561.896 m    0.001 m
+ ORTHO HGT:           1585.759 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4176539.772 m        3117565.271 m
+ EASTING (X)        266221.873 m         310266.164 m
+ CONVERGENCE       -1.62268611 deg      -1.31845278 deg
+ POINT SCALE        1.00027321           0.99995221
+ COMBINED FACTOR    1.00002800           0.99970707
+
+ US NATIONAL GRID DESIGNATOR: 12STG6622176539 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utbl (utbl    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1687210.621 m    0.000 m         -1687211.510 m    0.000 m
+ Y:               -4768885.913 m    0.001 m         -4768884.586 m    0.001 m
+ Z:                3874861.046 m    0.001 m          3874860.918 m    0.001 m
+ LAT:           37 38 17.07449      0.000 m       37 38 17.09011      0.000 m
+ E LON:        250 30 59.20977      0.000 m      250 30 59.15755      0.000 m
+ W LON:        109 29 00.79023      0.000 m      109 29 00.84245      0.000 m
+ EL HGT:              1883.462 m    0.001 m             1882.628 m    0.001 m
+ ORTHO HGT:           1903.135 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4166741.454 m        3109728.723 m
+ EASTING (X)        633795.683 m         677954.509 m
+ CONVERGENCE        0.92618889 deg       1.23545278 deg
+ POINT SCALE        0.99982050           0.99995453
+ COMBINED FACTOR    0.99952509           0.99965908
+
+ US NATIONAL GRID DESIGNATOR: 12SXG3379566741 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utbo (utbo    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1799977.741 m    0.001 m         -1799978.658 m    0.001 m
+ Y:               -4482380.430 m    0.001 m         -4482379.147 m    0.001 m
+ Z:                4153298.668 m    0.001 m          4153298.569 m    0.001 m
+ LAT:           40 52 50.68580      0.000 m       40 52 50.70137      0.000 m
+ E LON:        248 07 16.37467      0.000 m      248 07 16.31792      0.000 m
+ W LON:        111 52 43.62533      0.000 m      111 52 43.68208      0.000 m
+ EL HGT:              1343.775 m    0.002 m             1343.068 m    0.002 m
+ ORTHO HGT:           1360.328 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4525890.517 m        1060859.165 m
+ EASTING (X)        425959.381 m         468074.315 m
+ CONVERGENCE        0.57517778 deg       0.24975278 deg
+ POINT SCALE        0.99966747           0.99997757
+ COMBINED FACTOR    0.99945680           0.99976683
+
+ US NATIONAL GRID DESIGNATOR: 12TVL2595925890 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utbr (utbr    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1930229.843 m    0.000 m         -1930230.752 m    0.000 m
+ Y:               -4627963.013 m    0.001 m         -4627961.703 m    0.001 m
+ Z:                3931357.414 m    0.001 m          3931357.292 m    0.001 m
+ LAT:           38 17 02.74805      0.000 m       38 17 02.76219      0.000 m
+ E LON:        247 21 35.88942      0.000 m      247 21 35.83416      0.000 m
+ W LON:        112 38 24.11058      0.000 m      112 38 24.16584      0.000 m
+ EL HGT:              1795.076 m    0.001 m             1794.327 m    0.001 m
+ ORTHO HGT:           1815.287 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4238608.978 m        3180120.772 m
+ EASTING (X)        356562.347 m         400259.356 m
+ CONVERGENCE       -1.01627222 deg       0.69848333 deg
+ POINT SCALE        0.99985339           0.99998931
+ COMBINED FACTOR    0.99957185           0.99970773
+
+ US NATIONAL GRID DESIGNATOR: 12SUH5656238608 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utce (utce    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1981771.456 m    0.001 m         -1981772.365 m    0.001 m
+ Y:               -4649164.472 m    0.001 m         -4649163.158 m    0.001 m
+ Z:                3880564.328 m    0.001 m          3880564.201 m    0.001 m
+ LAT:           37 42 15.17459      0.000 m       37 42 15.18825      0.000 m
+ E LON:        246 54 47.49776      0.000 m      246 54 47.44260      0.000 m
+ W LON:        113 05 12.50224      0.000 m      113 05 12.55740      0.000 m
+ EL HGT:              1705.412 m    0.001 m             1704.660 m    0.001 m
+ ORTHO HGT:           1726.971 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4175047.265 m        3116337.607 m
+ EASTING (X)        316040.209 m         360082.374 m
+ CONVERGENCE       -1.27661667 deg       0.97221667 deg
+ POINT SCALE        1.00001684           0.99995226
+ COMBINED FACTOR    0.99974929           0.99968473
+
+ US NATIONAL GRID DESIGNATOR: 12SUG1604075047 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utcr (utcr    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1811760.132 m    0.001 m         -1811761.051 m    0.001 m
+ Y:               -4494017.897 m    0.001 m         -4494016.611 m    0.001 m
+ Z:                4135643.651 m    0.001 m          4135643.550 m    0.001 m
+ LAT:           40 40 15.72852      0.000 m       40 40 15.74398      0.000 m
+ E LON:        248 02 35.54500      0.000 m      248 02 35.48825      0.000 m
+ W LON:        111 57 24.45500      0.000 m      111 57 24.51175      0.000 m
+ EL HGT:              1319.510 m    0.002 m             1318.800 m    0.002 m
+ ORTHO HGT:           1336.687 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4502680.014 m        2259638.230 m
+ EASTING (X)        419132.920 m         461377.149 m
+ CONVERGENCE        0.62358889 deg       0.29261111 deg
+ POINT SCALE        0.99968049           1.00000530
+ COMBINED FACTOR    0.99947361           0.99979836
+
+ US NATIONAL GRID DESIGNATOR: 12TVL1913202680 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utd2 (utd2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1701640.389 m    0.000 m         -1701641.295 m    0.000 m
+ Y:               -4575540.012 m    0.001 m         -4575538.714 m    0.001 m
+ Z:                4093654.742 m    0.001 m          4093654.639 m    0.001 m
+ LAT:           40 10 18.08492      0.000 m       40 10 18.10120      0.000 m
+ E LON:        249 35 59.51242      0.000 m      249 35 59.45743      0.000 m
+ W LON:        110 24 00.48758      0.000 m      110 24 00.54257      0.000 m
+ EL HGT:              1680.097 m    0.001 m             1679.341 m    0.001 m
+ ORTHO HGT:           1697.252 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4446985.921 m        2204669.410 m
+ EASTING (X)        551075.945 m         593675.800 m
+ CONVERGENCE        0.38696944 deg       0.70455000 deg
+ POINT SCALE        0.99963211           0.99991605
+ COMBINED FACTOR    0.99936871           0.99965258
+
+ US NATIONAL GRID DESIGNATOR: 12TWK5107546985 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utde (utde    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1896569.633 m    0.001 m         -1896570.550 m    0.001 m
+ Y:               -4561014.131 m    0.001 m         -4561012.832 m    0.001 m
+ Z:                4023632.678 m    0.001 m          4023632.565 m    0.001 m
+ LAT:           39 21 12.73011      0.000 m       39 21 12.74470      0.000 m
+ E LON:        247 25 16.99761      0.000 m      247 25 16.94143      0.000 m
+ W LON:        112 34 43.00239      0.000 m      112 34 43.05857      0.000 m
+ EL HGT:              1403.105 m    0.001 m             1402.379 m    0.001 m
+ ORTHO HGT:           1422.620 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4357198.377 m        2113822.608 m
+ EASTING (X)        363984.686 m         407038.899 m
+ CONVERGENCE       -1.00115556 deg       0.69093611 deg
+ POINT SCALE        0.99982778           0.99993390
+ COMBINED FACTOR    0.99960773           0.99971383
+
+ US NATIONAL GRID DESIGNATOR: 12SUJ6398457198 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utdr (utdr    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1808045.714 m    0.001 m         -1808046.629 m    0.001 m
+ Y:               -4507085.431 m    0.001 m         -4507084.144 m    0.001 m
+ Z:                4123186.948 m    0.001 m          4123186.845 m    0.001 m
+ LAT:           40 31 22.67792      0.000 m       40 31 22.69338      0.000 m
+ E LON:        248 08 29.40102      0.000 m      248 08 29.34460      0.000 m
+ W LON:        111 51 30.59898      0.000 m      111 51 30.65540      0.000 m
+ EL HGT:              1366.920 m    0.002 m             1366.204 m    0.002 m
+ ORTHO HGT:           1383.992 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4486157.970 m        2243158.132 m
+ EASTING (X)        427280.391 m         469622.113 m
+ CONVERGENCE        0.55783611 deg       0.22964722 deg
+ POINT SCALE        0.99966509           0.99997087
+ COMBINED FACTOR    0.99945078           0.99975650
+
+ US NATIONAL GRID DESIGNATOR: 12TVK2728086157 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      ute2 (ute2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1842704.497 m    0.000 m         -1842705.414 m    0.000 m
+ Y:               -4537196.656 m    0.001 m         -4537195.362 m    0.001 m
+ Z:                4075837.579 m    0.001 m          4075837.472 m    0.001 m
+ LAT:           39 57 34.88903      0.000 m       39 57 34.90413      0.000 m
+ E LON:        247 53 46.73205      0.000 m      247 53 46.67575      0.000 m
+ W LON:        112 06 13.26795      0.000 m      112 06 13.32425      0.000 m
+ EL HGT:              1995.418 m    0.001 m             1994.694 m    0.001 m
+ ORTHO HGT:           2012.946 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4423866.528 m        2180730.198 m
+ EASTING (X)        405733.328 m         448424.153 m
+ CONVERGENCE        0.70889167 deg       0.38670833 deg
+ POINT SCALE        0.99970939           0.99990118
+ COMBINED FACTOR    0.99939654           0.99958827
+
+ US NATIONAL GRID DESIGNATOR: 12SVK0573323866 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utec (utec    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1745240.879 m    0.000 m         -1745241.792 m    0.000 m
+ Y:               -4488723.899 m    0.001 m         -4488722.616 m    0.001 m
+ Z:                4170430.669 m    0.001 m          4170430.571 m    0.001 m
+ LAT:           41 04 52.01633      0.000 m       41 04 52.03235      0.000 m
+ E LON:        248 45 13.10771      0.000 m      248 45 13.05134      0.000 m
+ W LON:        111 14 46.89229      0.000 m      111 14 46.94866      0.000 m
+ EL HGT:              1845.951 m    0.001 m             1845.235 m    0.001 m
+ ORTHO HGT:           1861.553 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4547790.967 m        1083071.737 m
+ EASTING (X)        479306.247 m         521313.094 m
+ CONVERGENCE        0.16188889 deg       0.16723889 deg
+ POINT SCALE        0.99960527           0.99996120
+ COMBINED FACTOR    0.99931591           0.99967174
+
+ US NATIONAL GRID DESIGNATOR: 12TVL7930647790 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utel (utel    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1654558.900 m    0.000 m         -1654559.789 m    0.000 m
+ Y:               -4768685.011 m    0.001 m         -4768683.684 m    0.001 m
+ Z:                3889399.473 m    0.001 m          3889399.347 m    0.001 m
+ LAT:           37 48 07.90804      0.000 m       37 48 07.92393      0.000 m
+ E LON:        250 51 54.36124      0.000 m      250 51 54.30914      0.000 m
+ W LON:        109 08 05.63876      0.000 m      109 08 05.69086      0.000 m
+ EL HGT:              2087.748 m    0.001 m             2086.910 m    0.001 m
+ ORTHO HGT:           2106.990 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4185507.092 m        3128658.763 m
+ EASTING (X)        664196.964 m         708256.975 m
+ CONVERGENCE        1.14344444 deg       1.44906667 deg
+ POINT SCALE        0.99993208           0.99995135
+ COMBINED FACTOR    0.99960460           0.99962387
+
+ US NATIONAL GRID DESIGNATOR: 12SXG6419685507 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utem (utem    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1823464.564 m    0.000 m         -1823465.482 m    0.000 m
+ Y:               -4513742.496 m    0.001 m         -4513741.206 m    0.001 m
+ Z:                4109560.536 m    0.001 m          4109560.432 m    0.001 m
+ LAT:           40 21 35.64102      0.000 m       40 21 35.65634      0.000 m
+ E LON:        248 00 08.08411      0.000 m      248 00 08.02756      0.000 m
+ W LON:        111 59 51.91589      0.000 m      111 59 51.97244      0.000 m
+ EL HGT:              1610.107 m    0.001 m             1609.390 m    0.001 m
+ ORTHO HGT:           1627.417 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4468181.600 m        2225108.369 m
+ EASTING (X)        415280.099 m         457721.548 m
+ CONVERGENCE        0.64617222 deg       0.31885000 deg
+ POINT SCALE        0.99968835           0.99994073
+ COMBINED FACTOR    0.99943591           0.99968823
+
+ US NATIONAL GRID DESIGNATOR: 12TVK1528068181 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utfi (utfi    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1886626.732 m    0.000 m         -1886627.643 m    0.000 m
+ Y:               -4594519.493 m    0.001 m         -4594518.190 m    0.001 m
+ Z:                3990526.502 m    0.001 m          3990526.386 m    0.001 m
+ LAT:           38 58 04.30839      0.000 m       38 58 04.32297      0.000 m
+ E LON:        247 40 32.51265      0.000 m      247 40 32.45708      0.000 m
+ W LON:        112 19 27.48735      0.000 m      112 19 27.54292      0.000 m
+ EL HGT:              1562.593 m    0.001 m             1561.852 m    0.001 m
+ ORTHO HGT:           1581.354 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4314044.269 m        2070775.758 m
+ EASTING (X)        385272.349 m         428561.514 m
+ CONVERGENCE        0.83292500 deg       0.52803056 deg
+ POINT SCALE        0.99976208           1.00001240
+ COMBINED FACTOR    0.99951703           0.99976729
+
+ US NATIONAL GRID DESIGNATOR: 12SUJ8527214044 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utgk (utgk    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1891554.922 m    0.001 m         -1891555.850 m    0.001 m
+ Y:               -4453969.195 m    0.001 m         -4453967.911 m    0.001 m
+ Z:                4143323.785 m    0.001 m          4143323.685 m    0.001 m
+ LAT:           40 45 41.60896      0.000 m       40 45 41.62383      0.000 m
+ E LON:        246 59 22.44359      0.000 m      246 59 22.38580      0.000 m
+ W LON:        113 00 37.55641      0.000 m      113 00 37.61420      0.000 m
+ EL HGT:              1410.452 m    0.001 m             1409.767 m    0.001 m
+ ORTHO HGT:           1428.142 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4514232.548 m        2270669.007 m
+ EASTING (X)        330306.501 m         372464.909 m
+ CONVERGENCE       -1.31295000 deg       0.96755000 deg
+ POINT SCALE        0.99995444           1.00002967
+ COMBINED FACTOR    0.99973325           0.99980846
+
+ US NATIONAL GRID DESIGNATOR: 12TUL3030614232 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utgn (utgn    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2023735.107 m    0.000 m         -2023736.028 m    0.000 m
+ Y:               -4538117.553 m    0.001 m         -4538116.255 m    0.001 m
+ Z:                3987954.209 m    0.001 m          3987954.094 m    0.001 m
+ LAT:           38 56 16.28468      0.000 m       38 56 16.29829      0.000 m
+ E LON:        245 57 57.32155      0.000 m      245 57 57.26469      0.000 m
+ W LON:        114 02 02.67845      0.000 m      114 02 02.73531      0.000 m
+ EL HGT:              1592.620 m    0.001 m             1591.917 m    0.001 m
+ ORTHO HGT:           1613.323 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (4302 UT C)
+ NORTHING (Y)      4314064.317 m        2070227.560 m
+ EASTING (X)        757073.303 m         280315.016 m
+ CONVERGENCE        1.86503333 deg      -1.62327500 deg
+ POINT SCALE        1.00041385           1.00002038
+ COMBINED FACTOR    1.00016393           0.99977056
+
+ US NATIONAL GRID DESIGNATOR: 11SQD5707314064 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utgr (utgr    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1855069.997 m    0.000 m         -1855070.921 m    0.000 m
+ Y:               -4481496.818 m    0.001 m         -4481495.531 m    0.001 m
+ Z:                4130065.074 m    0.001 m          4130064.972 m    0.001 m
+ LAT:           40 36 17.44190      0.000 m       40 36 17.45701      0.000 m
+ E LON:        247 30 48.19878      0.000 m      247 30 48.14155      0.000 m
+ W LON:        112 29 11.80122      0.000 m      112 29 11.85845      0.000 m
+ EL HGT:              1319.917 m    0.001 m             1319.216 m    0.001 m
+ ORTHO HGT:           1337.490 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4495954.688 m        2252649.879 m
+ EASTING (X)        374227.809 m         416500.100 m
+ CONVERGENCE        0.96766944 deg       0.63200278 deg
+ POINT SCALE        0.99979471           0.99998908
+ COMBINED FACTOR    0.99958774           0.99978207
+
+ US NATIONAL GRID DESIGNATOR: 12TUK7422795954 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utgv (utgv    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1710771.964 m    0.000 m         -1710772.862 m    0.000 m
+ Y:               -4660481.435 m    0.001 m         -4660480.124 m    0.001 m
+ Z:                3992748.457 m    0.001 m          3992748.342 m    0.001 m
+ LAT:           38 59 45.77752      0.000 m       38 59 45.79343      0.000 m
+ E LON:        249 50 34.07027      0.000 m      249 50 34.01646      0.000 m
+ W LON:        110 09 25.92973      0.000 m      110 09 25.98354      0.000 m
+ EL HGT:              1227.286 m    0.001 m             1226.498 m    0.001 m
+ ORTHO HGT:           1247.453 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4316675.964 m        2074448.849 m
+ EASTING (X)        572983.908 m         616324.399 m
+ CONVERGENCE        0.53036667 deg       0.86016667 deg
+ POINT SCALE        0.99966559           1.00000515
+ COMBINED FACTOR    0.99947313           0.99981263
+
+ US NATIONAL GRID DESIGNATOR: 12SWJ7298316675 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utha (utha    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -1771848.913 m    0.000 m         -1771849.809 m    0.000 m
+ Y:               -4683791.122 m    0.001 m         -4683789.807 m    0.001 m
+ Z:                3938948.153 m    0.001 m          3938948.033 m    0.001 m
+ LAT:           38 22 29.20865      0.000 m       38 22 29.22399      0.000 m
+ E LON:        249 16 43.25800      0.000 m      249 16 43.20432      0.000 m
+ W LON:        110 43 16.74200      0.000 m      110 43 16.79568      0.000 m
+ EL HGT:              1299.055 m    0.001 m             1298.264 m    0.001 m
+ ORTHO HGT:           1319.349 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4247435.741 m        3189862.180 m
+ EASTING (X)        524342.580 m         568043.600 m
+ CONVERGENCE        0.17300833 deg       0.47708889 deg
+ POINT SCALE        0.99960730           1.00000436
+ COMBINED FACTOR    0.99940359           0.99980057
+
+ US NATIONAL GRID DESIGNATOR: 12SWH2434247435 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      uthe (uthe    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1772705.729 m    0.000 m         -1772706.640 m    0.000 m
+ Y:               -4522623.692 m    0.001 m         -4522622.403 m    0.001 m
+ Z:                4122055.427 m    0.001 m          4122055.325 m    0.001 m
+ LAT:           40 30 24.96514      0.000 m       40 30 24.98088      0.000 m
+ E LON:        248 35 47.78839      0.000 m      248 35 47.73240      0.000 m
+ W LON:        111 24 12.21161      0.000 m      111 24 12.26760      0.000 m
+ EL HGT:              1708.910 m    0.001 m             1708.184 m    0.001 m
+ ORTHO HGT:           1724.645 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4484102.639 m        2241321.539 m
+ EASTING (X)        465822.506 m         508188.124 m
+ CONVERGENCE        0.26202222 deg       0.06188611 deg
+ POINT SCALE        0.99961438           0.99996755
+ COMBINED FACTOR    0.99934648           0.99969956
+
+ US NATIONAL GRID DESIGNATOR: 12TVK6582284102 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      uthn (uthn    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2012573.929 m    0.000 m         -2012574.835 m    0.000 m
+ Y:               -4673443.231 m    0.001 m         -4673441.913 m    0.001 m
+ Z:                3834444.176 m    0.001 m          3834444.045 m    0.001 m
+ LAT:           37 11 08.50168      0.000 m       37 11 08.51501      0.000 m
+ E LON:        246 42 04.79179      0.000 m      246 42 04.73691      0.000 m
+ W LON:        113 17 55.20821      0.000 m      113 17 55.26309      0.000 m
+ EL HGT:              1013.595 m    0.001 m             1012.837 m    0.001 m
+ ORTHO HGT:           1037.260 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4117947.024 m        3059139.515 m
+ EASTING (X)        295957.038 m         340296.627 m
+ CONVERGENCE       -1.38979444 deg      -1.10202222 deg
+ POINT SCALE        1.00011289           1.00000545
+ COMBINED FACTOR    0.99995384           0.99984641
+
+ US NATIONAL GRID DESIGNATOR: 12STG9595717947 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      uthr (uthr    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1820709.822 m    0.000 m         -1820710.741 m    0.000 m
+ Y:               -4502585.714 m    0.001 m         -4502584.426 m    0.001 m
+ Z:                4122703.960 m    0.001 m          4122703.857 m    0.001 m
+ LAT:           40 30 59.03960      0.000 m       40 30 59.05495      0.000 m
+ E LON:        247 58 59.07941      0.000 m      247 58 59.02274      0.000 m
+ W LON:        112 01 00.92059      0.000 m      112 01 00.97726      0.000 m
+ EL HGT:              1476.841 m    0.001 m             1476.128 m    0.001 m
+ ORTHO HGT:           1494.173 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4485571.817 m        2242494.718 m
+ EASTING (X)        413852.516 m         456193.898 m
+ CONVERGENCE        0.66070000 deg       0.33113056 deg
+ POINT SCALE        0.99969135           0.99996950
+ COMBINED FACTOR    0.99945980           0.99973789
+
+ US NATIONAL GRID DESIGNATOR: 12TVK1385285571 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      uthu (uthu    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1776627.459 m    0.000 m         -1776628.374 m    0.000 m
+ Y:               -4462027.437 m    0.001 m         -4462026.159 m    0.001 m
+ Z:                4185223.638 m    0.001 m          4185223.542 m    0.001 m
+ LAT:           41 15 37.69657      0.000 m       41 15 37.71239      0.000 m
+ E LON:        248 17 21.25000      0.000 m      248 17 21.19320      0.000 m
+ W LON:        111 42 38.75000      0.000 m      111 42 38.80680      0.000 m
+ EL HGT:              1534.777 m    0.001 m             1534.075 m    0.001 m
+ ORTHO HGT:           1550.595 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4567916.057 m        1102979.954 m
+ EASTING (X)        440459.410 m         482338.113 m
+ CONVERGENCE        0.46875000 deg       0.13896944 deg
+ POINT SCALE        0.99964363           0.99995686
+ COMBINED FACTOR    0.99940304           0.99971619
+
+ US NATIONAL GRID DESIGNATOR: 12TVL4045967916 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utju (utju    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1897346.066 m    0.000 m         -1897346.970 m    0.000 m
+ Y:               -4644488.107 m    0.001 m         -4644486.795 m    0.001 m
+ Z:                3927952.618 m    0.001 m          3927952.498 m    0.001 m
+ LAT:           38 14 41.30160      0.000 m       38 14 41.31605      0.000 m
+ E LON:        247 46 45.18066      0.000 m      247 46 45.12586      0.000 m
+ W LON:        112 13 14.81934      0.000 m      112 13 14.87414      0.000 m
+ EL HGT:              1828.211 m    0.001 m             1827.451 m    0.001 m
+ ORTHO HGT:           1847.400 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4233681.864 m        3175394.700 m
+ EASTING (X)        393173.873 m         436904.536 m
+ CONVERGENCE        0.75576389 deg       0.44161389 deg
+ POINT SCALE        0.99974054           0.99998356
+ COMBINED FACTOR    0.99945383           0.99969678
+
+ US NATIONAL GRID DESIGNATOR: 12SUH9317333681 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utka (utka    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1953152.969 m    0.000 m         -1953153.863 m    0.000 m
+ Y:               -4708882.968 m    0.001 m         -4708881.645 m    0.001 m
+ Z:                3822687.788 m    0.001 m          3822687.660 m    0.001 m
+ LAT:           37 02 58.36817      0.000 m       37 02 58.38204      0.000 m
+ E LON:        247 28 20.20097      0.000 m      247 28 20.14704      0.000 m
+ W LON:        112 31 39.79903      0.000 m      112 31 39.85296      0.000 m
+ EL HGT:              1501.532 m    0.001 m             1500.753 m    0.001 m
+ ORTHO HGT:           1523.565 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4101460.115 m        3042995.976 m
+ EASTING (X)        364153.106 m         408578.978 m
+ CONVERGENCE        0.92060278 deg       0.62967222 deg
+ POINT SCALE        0.99982734           1.00003285
+ COMBINED FACTOR    0.99959180           0.99979726
+
+ US NATIONAL GRID DESIGNATOR: 12SUG6415301460 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utkm (utkm    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1759374.424 m    0.000 m         -1759375.336 m    0.000 m
+ Y:               -4518029.058 m    0.001 m         -4518027.770 m    0.001 m
+ Z:                4133133.388 m    0.001 m          4133133.286 m    0.001 m
+ LAT:           40 38 10.15691      0.000 m       40 38 10.17276      0.000 m
+ E LON:        248 43 24.48397      0.000 m      248 43 24.42794      0.000 m
+ W LON:        111 16 35.51603      0.000 m      111 16 35.57206      0.000 m
+ EL HGT:              1978.206 m    0.001 m             1977.480 m    0.001 m
+ ORTHO HGT:           1993.272 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4498404.811 m        1033652.362 m
+ EASTING (X)        476615.782 m         518904.756 m
+ CONVERGENCE        0.18009444 deg       0.14734444 deg
+ POINT SCALE        0.99960673           1.00001397
+ COMBINED FACTOR    0.99929663           0.99970375
+
+ US NATIONAL GRID DESIGNATOR: 12TVK7661598404 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utl2 (utl2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1811764.795 m    0.000 m         -1811765.712 m    0.000 m
+ Y:               -4513665.345 m    0.001 m         -4513664.055 m    0.001 m
+ Z:                4114444.166 m    0.001 m          4114444.062 m    0.001 m
+ LAT:           40 25 09.49556      0.000 m       40 25 09.51098      0.000 m
+ E LON:        248 07 46.91161      0.000 m      248 07 46.85514      0.000 m
+ W LON:        111 52 13.08839      0.000 m      111 52 13.14486      0.000 m
+ EL HGT:              1391.420 m    0.001 m             1390.702 m    0.001 m
+ ORTHO HGT:           1408.704 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4474661.178 m        2231651.774 m
+ EASTING (X)        426167.181 m         468574.356 m
+ CONVERGENCE        0.56430833 deg       0.23720833 deg
+ POINT SCALE        0.99966710           0.99995077
+ COMBINED FACTOR    0.99944895           0.99973256
+
+ US NATIONAL GRID DESIGNATOR: 12TVK2616774661 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utln (utln    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1773338.027 m    0.000 m         -1773338.944 m    0.000 m
+ Y:               -4425446.129 m    0.001 m         -4425444.857 m    0.001 m
+ Z:                4224763.378 m    0.001 m          4224763.286 m    0.001 m
+ LAT:           41 44 13.04711      0.000 m       41 44 13.06300      0.000 m
+ E LON:        248 09 48.00533      0.000 m      248 09 47.94804      0.000 m
+ W LON:        111 50 11.99467      0.000 m      111 50 12.05196      0.000 m
+ EL HGT:              1376.418 m    0.001 m             1375.730 m    0.001 m
+ ORTHO HGT:           1392.031 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4620909.780 m        1155931.412 m
+ EASTING (X)        430424.463 m         471992.726 m
+ CONVERGENCE        0.55700000 deg       0.22198333 deg
+ POINT SCALE        0.99965957           0.99999280
+ COMBINED FACTOR    0.99944380           0.99977696
+
+ US NATIONAL GRID DESIGNATOR: 12TVM3042420909 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utlo (utlo    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1846545.986 m    0.000 m         -1846546.883 m    0.000 m
+ Y:               -4653555.912 m    0.001 m         -4653554.600 m    0.001 m
+ Z:                3941825.532 m    0.001 m          3941825.415 m    0.001 m
+ LAT:           38 24 06.52578      0.000 m       38 24 06.54070      0.000 m
+ E LON:        248 21 23.98490      0.000 m      248 21 23.93060      0.000 m
+ W LON:        111 38 36.01510      0.000 m      111 38 36.06940      0.000 m
+ EL HGT:              2144.032 m    0.001 m             2143.263 m    0.001 m
+ ORTHO HGT:           2161.748 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4250594.409 m        3192589.218 m
+ EASTING (X)        443825.992 m         487479.203 m
+ CONVERGENCE        0.39963333 deg       0.08782222 deg
+ POINT SCALE        0.99963886           1.00000934
+ COMBINED FACTOR    0.99930268           0.99967304
+
+ US NATIONAL GRID DESIGNATOR: 12SVH4382550594 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utls (utls    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1654614.652 m    0.000 m         -1654615.545 m    0.000 m
+ Y:               -4732061.712 m    0.001 m         -4732060.390 m    0.001 m
+ Z:                3933519.839 m    0.001 m          3933519.717 m    0.001 m
+ LAT:           38 18 25.16609      0.000 m       38 18 25.18214      0.000 m
+ E LON:        250 43 38.24099      0.000 m      250 43 38.18837      0.000 m
+ W LON:        109 16 21.75901      0.000 m      109 16 21.81163      0.000 m
+ EL HGT:              2065.148 m    0.001 m             2064.324 m    0.001 m
+ ORTHO HGT:           2083.763 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4241288.495 m        3184373.852 m
+ EASTING (X)        651022.358 m         694790.157 m
+ CONVERGENCE        1.07090556 deg       1.36463056 deg
+ POINT SCALE        0.99988089           0.99999287
+ COMBINED FACTOR    0.99955699           0.99966894
+
+ US NATIONAL GRID DESIGNATOR: 12SXH5102241288 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utlt (utlt    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1730480.042 m    0.000 m         -1730480.960 m    0.000 m
+ Y:               -4435534.537 m    0.001 m         -4435533.263 m    0.001 m
+ Z:                4232584.139 m    0.001 m          4232584.047 m    0.001 m
+ LAT:           41 49 39.72715      0.000 m       41 49 39.74335      0.000 m
+ E LON:        248 41 14.09131      0.000 m      248 41 14.03421      0.000 m
+ W LON:        111 18 45.90869      0.000 m      111 18 45.96579      0.000 m
+ EL HGT:              1831.492 m    0.001 m             1830.795 m    0.001 m
+ ORTHO HGT:           1846.142 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4630693.733 m        1165972.818 m
+ EASTING (X)        474028.820 m         515555.489 m
+ CONVERGENCE        0.20857222 deg       0.12346389 deg
+ POINT SCALE        0.99960830           1.00000750
+ COMBINED FACTOR    0.99932123           0.99972032
+
+ US NATIONAL GRID DESIGNATOR: 12TVM7402830693 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmb (utmb    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1670982.790 m    0.000 m         -1670983.685 m    0.000 m
+ Y:               -4706054.064 m    0.001 m         -4706052.747 m    0.001 m
+ Z:                3956207.329 m    0.001 m          3956207.209 m    0.001 m
+ LAT:           38 34 26.11598      0.000 m       38 34 26.13200      0.000 m
+ E LON:        250 27 05.51089      0.000 m      250 27 05.45786      0.000 m
+ W LON:        109 32 54.48911      0.000 m      109 32 54.54214      0.000 m
+ EL HGT:              1217.846 m    0.001 m             1217.035 m    0.001 m
+ ORTHO HGT:           1238.354 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4270494.676 m        2028566.910 m
+ EASTING (X)        626443.976 m         670073.380 m
+ CONVERGENCE        0.90518333 deg       1.25010833 deg
+ POINT SCALE        0.99979689           1.00013862
+ COMBINED FACTOR    0.99960588           0.99994755
+
+ US NATIONAL GRID DESIGNATOR: 12SXH2644370494 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmc (utmc    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1680716.689 m    0.000 m         -1680717.576 m    0.000 m
+ Y:               -4797760.031 m    0.001 m         -4797758.699 m    0.001 m
+ Z:                3841222.626 m    0.001 m          3841222.494 m    0.001 m
+ LAT:           37 15 36.54756      0.000 m       37 15 36.56310      0.000 m
+ E LON:        250 41 38.36305      0.000 m      250 41 38.31122      0.000 m
+ W LON:        109 18 21.63695      0.000 m      109 18 21.68878      0.000 m
+ EL HGT:              1339.575 m    0.001 m             1338.728 m    0.001 m
+ ORTHO HGT:           1360.476 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4125077.183 m        3068149.925 m
+ EASTING (X)        650215.386 m         694604.097 m
+ CONVERGENCE        1.02579167 deg       1.34423056 deg
+ POINT SCALE        0.99987796           0.99999283
+ COMBINED FACTOR    0.99966781           0.99978266
+
+ US NATIONAL GRID DESIGNATOR: 12SXG5021525077 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmg (utmg    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1822739.392 m    0.000 m         -1822740.313 m    0.000 m
+ Y:               -4486396.199 m    0.001 m         -4486394.913 m    0.001 m
+ Z:                4139028.222 m    0.001 m          4139028.121 m    0.001 m
+ LAT:           40 42 41.16357      0.000 m       40 42 41.17895      0.000 m
+ E LON:        247 53 20.42430      0.000 m      247 53 20.36734      0.000 m
+ W LON:        112 06 39.57570      0.000 m      112 06 39.63266      0.000 m
+ EL HGT:              1292.355 m    0.001 m             1291.649 m    0.001 m
+ ORTHO HGT:           1309.530 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4507317.818 m        2264202.180 m
+ EASTING (X)        406156.561 m         448370.008 m
+ CONVERGENCE        0.72469722 deg       0.39138889 deg
+ POINT SCALE        0.99970840           1.00001587
+ COMBINED FACTOR    0.99950577           0.99981318
+
+ US NATIONAL GRID DESIGNATOR: 12TVL0615607317 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmi (utmi    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1956839.375 m    0.000 m         -1956840.288 m    0.000 m
+ Y:               -4607714.768 m    0.001 m         -4607713.461 m    0.001 m
+ Z:                3941436.219 m    0.001 m          3941436.098 m    0.001 m
+ LAT:           38 24 06.80987      0.000 m       38 24 06.82385      0.000 m
+ E LON:        246 59 22.81188      0.000 m      246 59 22.75621      0.000 m
+ W LON:        113 00 37.18812      0.000 m      113 00 37.24379      0.000 m
+ EL HGT:              1506.239 m    0.001 m             1505.501 m    0.001 m
+ ORTHO HGT:           1527.191 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4252320.678 m        3193653.732 m
+ EASTING (X)        324457.668 m         368075.718 m
+ CONVERGENCE       -1.24908333 deg       0.92536111 deg
+ POINT SCALE        0.99997950           1.00000936
+ COMBINED FACTOR    0.99974322           0.99977307
+
+ US NATIONAL GRID DESIGNATOR: 12SUH2445752320 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmn (utmn    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1626990.142 m    0.000 m         -1626991.051 m    0.000 m
+ Y:               -4539588.738 m    0.001 m         -4539587.445 m    0.001 m
+ Z:                4163381.782 m    0.001 m          4163381.685 m    0.001 m
+ LAT:           40 59 46.26050      0.000 m       40 59 46.27751      0.000 m
+ E LON:        250 16 56.29182      0.000 m      250 16 56.23656      0.000 m
+ W LON:        109 43 03.70818      0.000 m      109 43 03.76344      0.000 m
+ EL HGT:              1948.856 m    0.001 m             1948.105 m    0.001 m
+ ORTHO HGT:           1963.061 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4539125.184 m        1075146.672 m
+ EASTING (X)        607851.163 m         649947.552 m
+ CONVERGENCE        0.84128333 deg       1.17517222 deg
+ POINT SCALE        0.99974316           0.99996666
+ COMBINED FACTOR    0.99943763           0.99966107
+
+ US NATIONAL GRID DESIGNATOR: 12TXL0785139125 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmt (utmt    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1823724.629 m    0.000 m         -1823725.532 m    0.000 m
+ Y:               -4597625.741 m    0.001 m         -4597624.439 m    0.001 m
+ Z:                4016176.123 m    0.001 m          4016176.012 m    0.001 m
+ LAT:           39 15 52.09953      0.000 m       39 15 52.11475      0.000 m
+ E LON:        248 21 48.33086      0.000 m      248 21 48.27583      0.000 m
+ W LON:        111 38 11.66914      0.000 m      111 38 11.72417      0.000 m
+ EL HGT:              1712.617 m    0.001 m             1711.867 m    0.001 m
+ ORTHO HGT:           1730.204 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4346319.087 m        2103383.657 m
+ EASTING (X)        445083.442 m         488213.806 m
+ CONVERGENCE        0.40290000 deg       0.08748611 deg
+ POINT SCALE        0.99963713           0.99994806
+ COMBINED FACTOR    0.99936860           0.99967945
+
+ US NATIONAL GRID DESIGNATOR: 12SVJ4508346319 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmv (utmv    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1759555.239 m    0.000 m         -1759556.125 m    0.000 m
+ Y:               -4788246.248 m    0.001 m         -4788244.916 m    0.001 m
+ Z:                3818264.674 m    0.001 m          3818264.541 m    0.001 m
+ LAT:           36 59 56.92203      0.000 m       36 59 56.93703      0.000 m
+ E LON:        249 49 22.58549      0.000 m      249 49 22.53329      0.000 m
+ W LON:        110 10 37.41451      0.000 m      110 10 37.46671      0.000 m
+ EL HGT:              1574.091 m    0.001 m             1573.257 m    0.001 m
+ ORTHO HGT:           1594.999 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4095093.997 m        3037732.890 m
+ EASTING (X)        573223.522 m         617759.758 m
+ CONVERGENCE        0.49526944 deg       0.81055000 deg
+ POINT SCALE        0.99966605           1.00004441
+ COMBINED FACTOR    0.99941917           0.99979743
+
+ US NATIONAL GRID DESIGNATOR: 12SWF7322395093 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utne (utne    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1827920.334 m    0.000 m         -1827921.244 m    0.000 m
+ Y:               -4561914.103 m    0.001 m         -4561912.806 m    0.001 m
+ Z:                4054311.408 m    0.001 m          4054311.299 m    0.001 m
+ LAT:           39 42 37.97271      0.000 m       39 42 37.98793      0.000 m
+ E LON:        248 09 51.99142      0.000 m      248 09 51.93574      0.000 m
+ W LON:        111 50 08.00858      0.000 m      111 50 08.06426      0.000 m
+ EL HGT:              1561.021 m    0.001 m             1560.285 m    0.001 m
+ ORTHO HGT:           1578.648 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4395965.364 m        2152950.135 m
+ EASTING (X)        428376.319 m         471227.703 m
+ CONVERGENCE        0.53386944 deg       0.21495000 deg
+ POINT SCALE        0.99966316           0.99990117
+ COMBINED FACTOR    0.99941840           0.99965636
+
+ US NATIONAL GRID DESIGNATOR: 12SVJ2837695965 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utoc (utoc    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1800503.546 m    0.000 m         -1800504.467 m    0.000 m
+ Y:               -4527565.657 m    0.001 m         -4527564.364 m    0.001 m
+ Z:                4104267.066 m    0.001 m          4104266.961 m    0.001 m
+ LAT:           40 17 54.89010      0.000 m       40 17 54.90555      0.000 m
+ E LON:        248 18 48.52333      0.000 m      248 18 48.46688      0.000 m
+ W LON:        111 41 11.47667      0.000 m      111 41 11.53312      0.000 m
+ EL HGT:              1453.332 m    0.001 m             1452.608 m    0.001 m
+ ORTHO HGT:           1470.331 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4461123.684 m        2218198.700 m
+ EASTING (X)        441654.553 m         484142.915 m
+ CONVERGENCE        0.44403333 deg       0.11948056 deg
+ POINT SCALE        0.99964190           0.99993150
+ COMBINED FACTOR    0.99941405           0.99970358
+
+ US NATIONAL GRID DESIGNATOR: 12TVK4165461123 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utog (utog    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1797956.272 m    0.000 m         -1797957.193 m    0.000 m
+ Y:               -4456550.758 m    0.001 m         -4456549.479 m    0.001 m
+ Z:                4181683.689 m    0.001 m          4181683.592 m    0.001 m
+ LAT:           41 13 10.51267      0.000 m       41 13 10.52828      0.000 m
+ E LON:        248 01 43.75421      0.000 m      248 01 43.69699      0.000 m
+ W LON:        111 58 16.24579      0.000 m      111 58 16.30301      0.000 m
+ EL HGT:              1345.342 m    0.001 m             1344.645 m    0.001 m
+ ORTHO HGT:           1361.980 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4563588.403 m        1098525.281 m
+ EASTING (X)        418593.481 m         460490.987 m
+ CONVERGENCE        0.63999167 deg       0.31067500 deg
+ POINT SCALE        0.99968156           0.99995699
+ COMBINED FACTOR    0.99947065           0.99974602
+
+ US NATIONAL GRID DESIGNATOR: 12TVL1859363588 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utp2 (utp2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1745061.750 m    0.000 m         -1745062.653 m    0.000 m
+ Y:               -4603214.423 m    0.001 m         -4603213.120 m    0.001 m
+ Z:                4044436.499 m    0.001 m          4044436.391 m    0.001 m
+ LAT:           39 35 38.10040      0.000 m       39 35 38.11625      0.000 m
+ E LON:        249 14 18.47503      0.000 m      249 14 18.42030      0.000 m
+ W LON:        110 45 41.52497      0.000 m      110 45 41.57970      0.000 m
+ EL HGT:              1714.207 m    0.001 m             1713.446 m    0.001 m
+ ORTHO HGT:           1731.109 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4382714.692 m        2140209.912 m
+ EASTING (X)        520475.400 m         563425.775 m
+ CONVERGENCE        0.15198333 deg       0.47304444 deg
+ POINT SCALE        0.99960516           0.99990763
+ COMBINED FACTOR    0.99933640           0.99963879
+
+ US NATIONAL GRID DESIGNATOR: 12SWJ2047582714 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utpc (utpc    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1776393.496 m    0.000 m         -1776394.408 m    0.000 m
+ Y:               -4510884.104 m    0.001 m         -4510882.817 m    0.001 m
+ Z:                4133932.276 m    0.001 m          4133932.175 m    0.001 m
+ LAT:           40 38 39.24100      0.000 m       40 38 39.25675      0.000 m
+ E LON:        248 30 19.43672      0.000 m      248 30 19.38057      0.000 m
+ W LON:        111 29 40.56328      0.000 m      111 29 40.61943      0.000 m
+ EL HGT:              2159.234 m    0.001 m             2158.513 m    0.001 m
+ ORTHO HGT:           2174.734 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4499382.413 m        1034525.218 m
+ EASTING (X)        458180.367 m         500456.693 m
+ CONVERGENCE        0.32216667 deg       0.00356111 deg
+ POINT SCALE        0.99962153           1.00001248
+ COMBINED FACTOR    0.99928306           0.99967388
+
+ US NATIONAL GRID DESIGNATOR: 12TVK5818099382 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utr1 (utr1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1797482.983 m    0.000 m         -1797483.904 m    0.000 m
+ Y:               -4453246.242 m    0.001 m         -4453244.962 m    0.001 m
+ Z:                4185312.780 m    0.001 m          4185312.683 m    0.001 m
+ LAT:           41 15 48.20558      0.000 m       41 15 48.22122      0.000 m
+ E LON:        248 01 09.50348      0.000 m      248 01 09.44621      0.000 m
+ W LON:        111 58 50.49652      0.000 m      111 58 50.55379      0.000 m
+ EL HGT:              1300.337 m    0.001 m             1299.640 m    0.001 m
+ ORTHO HGT:           1316.924 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4568460.268 m        1103394.130 m
+ EASTING (X)        417850.854 m         459720.136 m
+ CONVERGENCE        0.64682500 deg       0.31694722 deg
+ POINT SCALE        0.99968305           0.99995687
+ COMBINED FACTOR    0.99947919           0.99975296
+
+ US NATIONAL GRID DESIGNATOR: 12TVL1785068460 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utrc (utrc    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1724909.858 m    0.000 m         -1724910.775 m    0.000 m
+ Y:               -4450676.452 m    0.001 m         -4450675.175 m    0.001 m
+ Z:                4219151.579 m    0.001 m          4219151.486 m    0.001 m
+ LAT:           41 39 54.05989      0.000 m       41 39 54.07615      0.000 m
+ E LON:        248 48 56.15248      0.000 m      248 48 56.09558      0.000 m
+ W LON:        111 11 03.84752      0.000 m      111 11 03.90442      0.000 m
+ EL HGT:              1910.821 m    0.001 m             1910.117 m    0.001 m
+ ORTHO HGT:           1925.716 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4612600.917 m        1147934.692 m
+ EASTING (X)        484648.421 m         526283.708 m
+ CONVERGENCE        0.12258611 deg       0.20809167 deg
+ POINT SCALE        0.99960290           0.99998294
+ COMBINED FACTOR    0.99930340           0.99968333
+
+ US NATIONAL GRID DESIGNATOR: 12TVM8464812600 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utri (utri    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1874171.124 m    0.001 m         -1874172.028 m    0.001 m
+ Y:               -4615075.542 m    0.001 m         -4615074.236 m    0.001 m
+ Z:                3972861.870 m    0.001 m          3972861.754 m    0.001 m
+ LAT:           38 45 47.03984      0.000 m       38 45 47.05457      0.000 m
+ E LON:        247 53 52.96825      0.000 m      247 53 52.91320      0.000 m
+ W LON:        112 06 07.03175      0.000 m      112 06 07.08680      0.000 m
+ EL HGT:              1629.258 m    0.001 m             1628.506 m    0.001 m
+ ORTHO HGT:           1648.105 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4291060.832 m        2047886.605 m
+ EASTING (X)        404261.230 m         447678.109 m
+ CONVERGENCE        0.68998611 deg       0.38559722 deg
+ POINT SCALE        0.99971287           1.00007223
+ COMBINED FACTOR    0.99945738           0.99981665
+
+ US NATIONAL GRID DESIGNATOR: 12SVH0426191060 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utro (utro    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1666196.163 m    0.000 m         -1666197.068 m    0.000 m
+ Y:               -4579107.332 m    0.001 m         -4579106.033 m    0.001 m
+ Z:                4103941.828 m    0.001 m          4103941.726 m    0.001 m
+ LAT:           40 17 38.74049      0.000 m       40 17 38.75705      0.000 m
+ E LON:        250 00 18.40097      0.000 m      250 00 18.34617      0.000 m
+ W LON:        109 59 41.59903      0.000 m      109 59 41.65383      0.000 m
+ EL HGT:              1538.031 m    0.001 m             1537.269 m    0.001 m
+ ORTHO HGT:           1555.529 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4460884.284 m        2218760.713 m
+ EASTING (X)        585427.528 m         627959.292 m
+ CONVERGENCE        0.65005556 deg       0.96414167 deg
+ POINT SCALE        0.99968983           0.99993087
+ COMBINED FACTOR    0.99944869           0.99968967
+
+ US NATIONAL GRID DESIGNATOR: 12TWK8542760884 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utrs (utrs    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1797229.293 m    0.000 m         -1797230.216 m    0.000 m
+ Y:               -4411707.027 m    0.001 m         -4411705.755 m    0.001 m
+ Z:                4228943.719 m    0.001 m          4228943.628 m    0.001 m
+ LAT:           41 47 15.86180      0.000 m       41 47 15.87752      0.000 m
+ E LON:        247 50 06.48133      0.000 m      247 50 06.42353      0.000 m
+ W LON:        112 09 53.51867      0.000 m      112 09 53.57647      0.000 m
+ EL HGT:              1334.809 m    0.001 m             1334.129 m    0.001 m
+ ORTHO HGT:           1350.214 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4626865.321 m        1161728.844 m
+ EASTING (X)        403207.846 m         444733.137 m
+ CONVERGENCE        0.77629444 deg       0.43838333 deg
+ POINT SCALE        0.99971529           1.00000072
+ COMBINED FACTOR    0.99950603           0.99979140
+
+ US NATIONAL GRID DESIGNATOR: 12TVM0320726865 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      uts2 (uts2    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0258)
+ X:               -1801968.287 m    0.000 m         -1801969.204 m    0.000 m
+ Y:               -4539320.608 m    0.001 m         -4539319.314 m    0.001 m
+ Z:                4090581.933 m    0.001 m          4090581.827 m    0.001 m
+ LAT:           40 08 16.20903      0.000 m       40 08 16.22446      0.000 m
+ E LON:        248 20 54.49429      0.000 m      248 20 54.43813      0.000 m
+ W LON:        111 39 05.50571      0.000 m      111 39 05.56187      0.000 m
+ EL HGT:              1371.485 m    0.001 m             1370.755 m    0.001 m
+ ORTHO HGT:           1388.876 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4443259.261 m        2200345.598 m
+ EASTING (X)        444497.428 m         487087.511 m
+ CONVERGENCE        0.42000556 deg       0.09706667 deg
+ POINT SCALE        0.99963792           0.99991276
+ COMBINED FACTOR    0.99942289           0.99969767
+
+ US NATIONAL GRID DESIGNATOR: 12TVK4449743259 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utsg (utsg    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -2042751.532 m    0.000 m         -2042752.439 m    0.000 m
+ Y:               -4672758.901 m    0.001 m         -4672757.581 m    0.001 m
+ Z:                3819031.408 m    0.001 m          3819031.276 m    0.001 m
+ LAT:           37 00 47.06829      0.000 m       37 00 47.08140      0.000 m
+ E LON:        246 23 12.80499      0.000 m      246 23 12.75000      0.000 m
+ W LON:        113 36 47.19501      0.000 m      113 36 47.25000      0.000 m
+ EL HGT:               796.585 m    0.001 m              795.830 m    0.001 m
+ ORTHO HGT:            821.288 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4099515.563 m        3040570.574 m
+ EASTING (X)        267513.208 m         311949.048 m
+ CONVERGENCE       -1.57378889 deg      -1.29467500 deg
+ POINT SCALE        1.00026590           1.00004114
+ COMBINED FACTOR    1.00014087           0.99991614
+
+ US NATIONAL GRID DESIGNATOR: 12STF6751399515 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utsl (utsl    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1805100.682 m    0.000 m         -1805101.599 m    0.000 m
+ Y:               -4491556.596 m    0.001 m         -4491555.311 m    0.001 m
+ Z:                4141134.552 m    0.001 m          4141134.451 m    0.001 m
+ LAT:           40 44 11.46911      0.000 m       40 44 11.48463      0.000 m
+ E LON:        248 06 19.51049      0.000 m      248 06 19.45382      0.000 m
+ W LON:        111 53 40.48951      0.000 m      111 53 40.54618      0.000 m
+ EL HGT:              1284.345 m    0.001 m             1283.635 m    0.001 m
+ ORTHO HGT:           1301.259 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4509893.693 m        2266885.048 m
+ EASTING (X)        424465.151 m         466669.407 m
+ CONVERGENCE        0.58381389 deg       0.25276111 deg
+ POINT SCALE        0.99967023           1.00002268
+ COMBINED FACTOR    0.99946887           0.99982125
+
+ US NATIONAL GRID DESIGNATOR: 12TVL2446509893 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utso (utso    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1803506.423 m    0.000 m         -1803507.340 m    0.000 m
+ Y:               -4488987.724 m    0.001 m         -4488986.439 m    0.001 m
+ Z:                4144749.170 m    0.001 m          4144749.070 m    0.001 m
+ LAT:           40 46 43.22662      0.000 m       40 46 43.24218      0.000 m
+ E LON:        248 06 41.73849      0.000 m      248 06 41.68179      0.000 m
+ W LON:        111 53 18.26151      0.000 m      111 53 18.31821      0.000 m
+ EL HGT:              1388.373 m    0.001 m             1387.664 m    0.001 m
+ ORTHO HGT:           1405.119 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4514567.875 m        2271564.120 m
+ EASTING (X)        425033.877 m         467211.293 m
+ CONVERGENCE        0.58028056 deg       0.24880556 deg
+ POINT SCALE        0.99966917           1.00003456
+ COMBINED FACTOR    0.99945150           0.99981681
+
+ US NATIONAL GRID DESIGNATOR: 12TVL2503314567 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utta (utta    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1721619.280 m    0.000 m         -1721620.187 m    0.000 m
+ Y:               -4554501.496 m    0.001 m         -4554500.201 m    0.001 m
+ Z:                4109090.319 m    0.001 m          4109090.218 m    0.001 m
+ LAT:           40 21 05.57198      0.000 m       40 21 05.58818      0.000 m
+ E LON:        249 17 35.56635      0.000 m      249 17 35.51099      0.000 m
+ W LON:        110 42 24.43365      0.000 m      110 42 24.48901      0.000 m
+ EL HGT:              1975.733 m    0.001 m             1974.989 m    0.001 m
+ ORTHO HGT:           1991.262 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4466818.023 m        2224362.092 m
+ EASTING (X)        524899.758 m         567381.904 m
+ CONVERGENCE        0.18985000 deg       0.50811389 deg
+ POINT SCALE        0.99960763           0.99993940
+ COMBINED FACTOR    0.99929791           0.99962958
+
+ US NATIONAL GRID DESIGNATOR: 12TWK2489966818 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      uttp (uttp    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1902123.063 m    0.000 m         -1902123.958 m    0.000 m
+ Y:               -4688113.383 m    0.001 m         -4688112.065 m    0.001 m
+ Z:                3873947.506 m    0.001 m          3873947.382 m    0.001 m
+ LAT:           37 37 38.88675      0.000 m       37 37 38.90107      0.000 m
+ E LON:        247 54 57.50638      0.000 m      247 54 57.45236      0.000 m
+ W LON:        112 05 02.49362      0.000 m      112 05 02.54764      0.000 m
+ EL HGT:              1914.784 m    0.001 m             1914.007 m    0.001 m
+ ORTHO HGT:           1935.220 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4165035.688 m        3106793.746 m
+ EASTING (X)        404344.511 m         448447.811 m
+ CONVERGENCE        0.66187500 deg       0.35782500 deg
+ POINT SCALE        0.99971270           0.99995501
+ COMBINED FACTOR    0.99941241           0.99965464
+
+ US NATIONAL GRID DESIGNATOR: 12SVG0434465035 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utuc (utuc    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1624760.431 m    0.000 m         -1624761.337 m    0.000 m
+ Y:               -4581629.290 m    0.001 m         -4581627.991 m    0.001 m
+ Z:                4117751.161 m    0.001 m          4117751.059 m    0.001 m
+ LAT:           40 27 24.02579      0.000 m       40 27 24.04267      0.000 m
+ E LON:        250 28 27.19033      0.000 m      250 28 27.13568      0.000 m
+ W LON:        109 31 32.80967      0.000 m      109 31 32.86432      0.000 m
+ EL HGT:              1619.493 m    0.001 m             1618.726 m    0.001 m
+ ORTHO HGT:           1636.287 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4479489.136 m        2237584.082 m
+ EASTING (X)        624998.842 m         667437.098 m
+ CONVERGENCE        0.95670556 deg       1.26464167 deg
+ POINT SCALE        0.99979233           0.99995763
+ COMBINED FACTOR    0.99953840           0.99970366
+
+ US NATIONAL GRID DESIGNATOR: 12TXK2499879489 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utwa (utwa    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1765435.777 m    0.000 m         -1765436.689 m    0.000 m
+ Y:               -4502607.572 m    0.001 m         -4502606.287 m    0.001 m
+ Z:                4146986.762 m    0.001 m          4146986.663 m    0.001 m
+ LAT:           40 48 07.47650      0.000 m       40 48 07.49235      0.000 m
+ E LON:        248 35 24.93085      0.000 m      248 35 24.87463      0.000 m
+ W LON:        111 24 35.06915      0.000 m      111 24 35.12537      0.000 m
+ EL HGT:              1800.869 m    0.001 m             1800.150 m    0.001 m
+ ORTHO HGT:           1816.544 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4516866.845 m        1052057.407 m
+ EASTING (X)        465437.198 m         507616.494 m
+ CONVERGENCE        0.26774722 deg       0.05951111 deg
+ POINT SCALE        0.99961470           0.99998731
+ COMBINED FACTOR    0.99933240           0.99970490
+
+ US NATIONAL GRID DESIGNATOR: 12TVL6543716866 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utwb (utwb    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1798727.015 m    0.000 m         -1798727.929 m    0.000 m
+ Y:               -4497956.098 m    0.001 m         -4497954.813 m    0.001 m
+ Z:                4137307.445 m    0.001 m          4137307.344 m    0.001 m
+ LAT:           40 41 22.01078      0.000 m       40 41 22.02634      0.000 m
+ E LON:        248 12 12.93044      0.000 m      248 12 12.87400      0.000 m
+ W LON:        111 47 47.06956      0.000 m      111 47 47.12600      0.000 m
+ EL HGT:              1492.750 m    0.001 m             1492.036 m    0.001 m
+ ORTHO HGT:           1509.129 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4504588.634 m        2261625.718 m
+ EASTING (X)        432707.133 m         474944.751 m
+ CONVERGENCE        0.51924444 deg       0.18987222 deg
+ POINT SCALE        0.99965574           1.00001005
+ COMBINED FACTOR    0.99942171           0.99977594
+
+ US NATIONAL GRID DESIGNATOR: 12TVL3270704588 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utwe (utwe    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1967929.217 m    0.000 m         -1967930.148 m    0.000 m
+ Y:               -4421982.902 m    0.001 m         -4421981.622 m    0.001 m
+ Z:                4141813.759 m    0.001 m          4141813.661 m    0.001 m
+ LAT:           40 44 40.80209      0.000 m       40 44 40.81642      0.000 m
+ E LON:        246 00 33.65295      0.000 m      246 00 33.59451      0.000 m
+ W LON:        113 59 26.34705      0.000 m      113 59 26.40549      0.000 m
+ EL HGT:              1274.390 m    0.001 m             1273.726 m    0.001 m
+ ORTHO HGT:           1292.712 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4514716.626 m        2270645.082 m
+ EASTING (X)        247496.295 m         289663.896 m
+ CONVERGENCE       -1.95299722 deg      -1.59545833 deg
+ POINT SCALE        1.00038484           1.00002493
+ COMBINED FACTOR    1.00018490           0.99982506
+
+ US NATIONAL GRID DESIGNATOR: 12TTL4749614716 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      wwrf (wwrf    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2441735.765 m    0.000 m         -2441736.718 m    0.000 m
+ Y:               -4280322.265 m    0.001 m         -4280320.945 m    0.001 m
+ Z:                4037877.745 m    0.001 m          4037877.689 m    0.001 m
+ LAT:           39 31 12.72280      0.000 m       39 31 12.73530      0.000 m
+ E LON:        240 17 49.70872      0.000 m      240 17 49.64669      0.000 m
+ W LON:        119 42 10.29128      0.000 m      119 42 10.35331      0.000 m
+ EL HGT:              1326.126 m    0.001 m             1325.570 m    0.001 m
+ ORTHO HGT:           1350.275 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4377995.123 m        4529944.113 m
+ EASTING (X)        267661.597 m         703742.125 m
+ CONVERGENCE       -1.72073333 deg       0.71246389 deg
+ POINT SCALE        1.00026467           1.00001404
+ COMBINED FACTOR    1.00005661           0.99980603
+
+ US NATIONAL GRID DESIGNATOR: 11SKD6766177995 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      wybf (wybf    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1639495.818 m    0.000 m         -1639496.731 m    0.000 m
+ Y:               -4491602.934 m    0.001 m         -4491601.648 m    0.001 m
+ Z:                4209905.346 m    0.001 m          4209905.255 m    0.001 m
+ LAT:           41 33 13.01567      0.000 m       41 33 13.03270      0.000 m
+ E LON:        249 56 50.04260      0.000 m      249 56 49.98659      0.000 m
+ W LON:        110 03 09.95740      0.000 m      110 03 10.01341      0.000 m
+ EL HGT:              1922.280 m    0.001 m             1921.550 m    0.001 m
+ ORTHO HGT:           1937.264 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4904 WY W)
+ NORTHING (Y)      4600649.749 m         217001.804 m
+ EASTING (X)        578993.977 m         802549.994 m
+ CONVERGENCE        0.62835278 deg       0.02027500 deg
+ POINT SCALE        0.99967679           0.99993758
+ COMBINED FACTOR    0.99937547           0.99963618
+
+ US NATIONAL GRID DESIGNATOR: 12TWM7899300649 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      wydp (wydp    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1641940.539 m    0.000 m         -1641941.457 m    0.000 m
+ Y:               -4428117.412 m    0.001 m         -4428116.134 m    0.001 m
+ Z:                4275888.138 m    0.001 m          4275888.055 m    0.001 m
+ LAT:           42 20 55.23133      0.000 m       42 20 55.24853      0.000 m
+ E LON:        249 39 19.01155      0.000 m      249 39 18.95454      0.000 m
+ W LON:        110 20 40.98845      0.000 m      110 20 41.04546      0.000 m
+ EL HGT:              2347.778 m    0.001 m             2347.072 m    0.001 m
+ ORTHO HGT:           2359.977 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4904 WY W)
+ NORTHING (Y)      4688698.344 m         305338.087 m
+ EASTING (X)        553971.655 m         778463.962 m
+ CONVERGENCE        0.44143333 deg       0.17608056 deg
+ POINT SCALE        0.99963584           0.99994320
+ COMBINED FACTOR    0.99926789           0.99957514
+
+ US NATIONAL GRID DESIGNATOR: 12TWM5397188698 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      wyke (wyke    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1671531.068 m    0.000 m         -1671531.983 m    0.000 m
+ Y:               -4461951.889 m    0.001 m         -4461950.607 m    0.001 m
+ Z:                4228922.510 m    0.001 m          4228922.422 m    0.001 m
+ LAT:           41 46 53.05485      0.000 m       41 46 53.07171      0.000 m
+ E LON:        249 27 47.17988      0.000 m      249 27 47.12332      0.000 m
+ W LON:        110 32 12.82012      0.000 m      110 32 12.87668      0.000 m
+ EL HGT:              2090.610 m    0.001 m             2089.895 m    0.001 m
+ ORTHO HGT:           2104.814 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4904 WY W)
+ NORTHING (Y)      4625609.867 m         242398.971 m
+ EASTING (X)        538484.329 m         762296.090 m
+ CONVERGENCE        0.30856667 deg       0.30220833 deg
+ POINT SCALE        0.99961822           0.99995499
+ COMBINED FACTOR    0.99929055           0.99962721
+
+ US NATIONAL GRID DESIGNATOR: 12TWM3848425609 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      wyrs (wyrs    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1572450.361 m    0.000 m         -1572451.273 m    0.000 m
+ Y:               -4513367.136 m    0.001 m         -4513365.847 m    0.001 m
+ Z:                4212187.841 m    0.001 m          4212187.749 m    0.001 m
+ LAT:           41 34 51.88796      0.000 m       41 34 51.90547      0.000 m
+ E LON:        250 47 30.26296      0.000 m      250 47 30.20749      0.000 m
+ W LON:        109 12 29.73704      0.000 m      109 12 29.79251      0.000 m
+ EL HGT:              1921.692 m    0.001 m             1920.945 m    0.001 m
+ ORTHO HGT:           1935.948 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4903 WYWC)
+ NORTHING (Y)      4604815.926 m         120152.928 m
+ EASTING (X)        649359.834 m         561787.123 m
+ CONVERGENCE        1.18936111 deg       0.30414167 deg
+ POINT SCALE        0.99987453           0.99995546
+ COMBINED FACTOR    0.99957324           0.99965415
+
+ US NATIONAL GRID DESIGNATOR: 12TXM4935904815 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      wysi (wysi    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1549807.361 m    0.000 m         -1549808.269 m    0.000 m
+ Y:               -4561929.575 m    0.001 m         -4561928.279 m    0.001 m
+ Z:                4168721.296 m    0.001 m          4168721.199 m    0.001 m
+ LAT:           41 03 29.15873      0.000 m       41 03 29.17627      0.000 m
+ E LON:        251 14 09.69321      0.000 m      251 14 09.63857      0.000 m
+ W LON:        108 45 50.30679      0.000 m      108 45 50.36143      0.000 m
+ EL HGT:              2178.188 m    0.001 m             2177.419 m    0.001 m
+ ORTHO HGT:           2192.855 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4903 WYWC)
+ NORTHING (Y)      4547615.537 m          61972.986 m
+ EASTING (X)        687894.608 m         598825.392 m
+ CONVERGENCE        1.46910556 deg       0.00917778 deg
+ POINT SCALE        1.00003453           0.99993752
+ COMBINED FACTOR    0.99969297           0.99959599
+
+ US NATIONAL GRID DESIGNATOR: 12TXL8789447615 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      yer1 (yer1    1)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2419323.691 m    0.000 m         -2419324.636 m    0.000 m
+ Y:               -4335572.699 m    0.001 m         -4335571.373 m    0.001 m
+ Z:                3992458.138 m    0.001 m          3992458.078 m    0.001 m
+ LAT:           38 59 31.29184      0.000 m       38 59 31.30455      0.000 m
+ E LON:        240 50 15.84885      0.000 m      240 50 15.78772      0.000 m
+ W LON:        119 09 44.15115      0.000 m      119 09 44.21228      0.000 m
+ EL HGT:              1317.766 m    0.001 m             1317.186 m    0.001 m
+ ORTHO HGT:           1342.594 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4318115.589 m        4470872.715 m
+ EASTING (X)        312735.381 m         749848.507 m
+ CONVERGENCE       -1.36091944 deg       0.36427778 deg
+ POINT SCALE        1.00003183           0.99993096
+ COMBINED FACTOR    0.99982511           0.99972426
+
+ US NATIONAL GRID DESIGNATOR: 11SLD1273518115 (NAD 83)
+
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ CONSTRAINED MARKS
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      azgv (azgv a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:    0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:    0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0007)
+ X:               -2142209.898 m    0.000 m         -2142210.779 m    0.000 m
+ Y:               -4754587.079 m    0.000 m         -4754585.752 m    0.000 m
+ Z:                3661449.024 m    0.000 m          3661448.879 m    0.000 m
+ LAT:           35 15 15.73147      0.000 m       35 15 15.74349      0.000 m
+ E LON:        245 44 44.68806      0.000 m      245 44 44.63472      0.000 m
+ W LON:        114 15 15.31194      0.000 m      114 15 15.36528      0.000 m
+ EL HGT:               868.347 m    0.000 m              867.571 m    0.000 m
+ ORTHO HGT:            897.292 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (0203 AZ W)
+ NORTHING (Y)      3904708.853 m         471924.205 m
+ EASTING (X)        749808.249 m         167473.405 m
+ CONVERGENCE        1.58568611 deg       0.29106389 deg
+ POINT SCALE        1.00036913           0.99995927
+ COMBINED FACTOR    1.00023280           0.99982300
+
+ US NATIONAL GRID DESIGNATOR: 11SQV4980804708 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      burn (burn a  5)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:    0.000m (0.000m)   Z:    0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:    0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0013)
+ X:               -2190266.271 m    0.000 m         -2190267.206 m    0.000 m
+ Y:               -4146573.202 m    0.000 m         -4146571.943 m    0.000 m
+ Z:                4310356.942 m    0.000 m          4310356.872 m    0.000 m
+ LAT:           42 46 46.18852      0.000 m       42 46 46.20173      0.000 m
+ E LON:        242 09 23.34802      0.000 m      242 09 23.28578      0.000 m
+ W LON:        117 50 36.65198      0.000 m      117 50 36.71422      0.000 m
+ EL HGT:              1181.428 m    0.000 m             1180.883 m    0.000 m
+ ORTHO HGT:           1199.740 m    0.015 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (3602 OR S)
+ NORTHING (Y)      4736673.737 m         127063.257 m
+ EASTING (X)        431000.988 m        1717330.996 m
+ CONVERGENCE        0.57291944 deg       1.81742778 deg
+ POINT SCALE        0.99965857           0.99991753
+ COMBINED FACTOR    0.99947339           0.99973230
+
+ US NATIONAL GRID DESIGNATOR: 11TMH3100036673 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      cti4 (cti4 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0009)
+ X:               -1552691.592 m    0.000 m         -1552692.475 m    0.000 m
+ Y:               -4848835.887 m    0.000 m         -4848834.547 m    0.000 m
+ Z:                3832151.828 m    0.000 m          3832151.693 m    0.000 m
+ LAT:           37 09 10.48964      0.000 m       37 09 10.50588      0.000 m
+ E LON:        252 14 38.12332      0.000 m      252 14 38.07269      0.000 m
+ W LON:        107 45 21.87668      0.000 m      107 45 21.92731      0.000 m
+ EL HGT:              2018.867 m    0.000 m             2017.983 m    0.000 m
+ ORTHO HGT:           2038.491 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 13)         SPC (0503 CO S)
+ NORTHING (Y)      4115392.663 m         361186.684 m
+ EASTING (X)        255241.298 m         714003.877 m
+ CONVERGENCE       -1.66534444 deg      -1.38382778 deg
+ POINT SCALE        1.00033804           1.00001557
+ COMBINED FACTOR    1.00002121           0.99969885
+
+ US NATIONAL GRID DESIGNATOR: 13SBB5524115392 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      egan (egan a  5)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0009)
+ X:               -2083233.532 m    0.000 m         -2083234.461 m    0.000 m
+ Y:               -4479987.608 m    0.000 m         -4479986.308 m    0.000 m
+ Z:                4023297.951 m    0.000 m          4023297.835 m    0.000 m
+ LAT:           39 20 42.86062      0.000 m       39 20 42.87389      0.000 m
+ E LON:        245 03 40.17292      0.000 m      245 03 40.11489      0.000 m
+ W LON:        114 56 19.82708      0.000 m      114 56 19.88511      0.000 m
+ EL HGT:              1998.945 m    0.000 m             1998.262 m    0.000 m
+ ORTHO HGT:           2019.213 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      4357115.223 m        8510120.766 m
+ EASTING (X)        677616.394 m         255552.414 m
+ CONVERGENCE        1.30710000 deg       0.40861389 deg
+ POINT SCALE        0.99998844           0.99993798
+ COMBINED FACTOR    0.99967493           0.99962448
+
+ US NATIONAL GRID DESIGNATOR: 11SPD7761657115 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      idby (idby a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0012)
+ X:               -1710923.071 m    0.000 m         -1710924.013 m    0.000 m
+ Y:               -4281180.351 m    0.000 m         -4281179.102 m    0.000 m
+ Z:                4394745.876 m    0.000 m          4394745.786 m    0.000 m
+ LAT:           43 49 13.27929      0.000 m       43 49 13.29537      0.000 m
+ E LON:        248 12 59.27290      0.000 m      248 12 59.21301      0.000 m
+ W LON:        111 47 00.72710      0.000 m      111 47 00.78699      0.000 m
+ EL HGT:              1493.776 m    0.000 m             1493.130 m    0.000 m
+ ORTHO HGT:           1504.978 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1101 ID E)
+ NORTHING (Y)      4852218.737 m         239307.194 m
+ EASTING (X)        436991.437 m         230820.463 m
+ CONVERGENCE        0.54253611 deg       0.26528333 deg
+ POINT SCALE        0.99964883           0.99995905
+ COMBINED FACTOR    0.99941473           0.99972488
+
+ US NATIONAL GRID DESIGNATOR: 12TVP3699152218 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      mc01 (mc01 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0008)
+ X:               -1575525.102 m    0.000 m         -1575525.995 m    0.000 m
+ Y:               -4701076.504 m    0.000 m         -4701075.191 m    0.000 m
+ Z:                4001088.783 m    0.000 m          4001088.663 m    0.000 m
+ LAT:           39 05 28.39211      0.000 m       39 05 28.40873      0.000 m
+ E LON:        251 28 18.73025      0.000 m      251 28 18.67767      0.000 m
+ W LON:        108 31 41.26975      0.000 m      108 31 41.32233      0.000 m
+ EL HGT:              1438.008 m    0.000 m             1437.187 m    0.000 m
+ ORTHO HGT:           1454.926 m    0.025 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0502 CO C)
+ NORTHING (Y)      4329808.277 m         448800.593 m
+ EASTING (X)        713782.134 m         652488.220 m
+ CONVERGENCE        1.55924444 deg      -1.90981111 deg
+ POINT SCALE        1.00016278           0.99993592
+ COMBINED FACTOR    0.99993718           0.99971037
+
+ US NATIONAL GRID DESIGNATOR: 12SYJ1378229808 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      nvpo (nvpo a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0008)
+ X:               -2225756.371 m    0.000 m         -2225757.285 m    0.000 m
+ Y:               -4667319.384 m    0.000 m         -4667318.058 m    0.000 m
+ Z:                3725728.886 m    0.000 m          3725728.753 m    0.000 m
+ LAT:           35 57 22.58606      0.000 m       35 57 22.59787      0.000 m
+ E LON:        244 30 15.86976      0.000 m      244 30 15.81408      0.000 m
+ W LON:        115 29 44.13024      0.000 m      115 29 44.18592      0.000 m
+ EL HGT:              2492.432 m    0.000 m             2491.703 m    0.000 m
+ ORTHO HGT:           2519.493 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2701 NV E)
+ NORTHING (Y)      3980144.561 m        8133822.730 m
+ EASTING (X)        635668.434 m         207914.681 m
+ CONVERGENCE        0.88347500 deg       0.05151944 deg
+ POINT SCALE        0.99982680           0.99990077
+ COMBINED FACTOR    0.99943583           0.99950977
+
+ US NATIONAL GRID DESIGNATOR: 11SPV3566880144 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p008 (p008 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:   -0.000m (0.000m)   H:    0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0006)
+ X:               -1859349.096 m    0.000 m         -1859349.979 m    0.000 m
+ Y:               -4811105.132 m    0.000 m         -4811103.796 m    0.000 m
+ Z:                3741898.724 m    0.000 m          3741898.585 m    0.000 m
+ LAT:           36 08 34.13988      0.000 m       36 08 34.15400      0.000 m
+ E LON:        248 52 11.87397      0.000 m      248 52 11.82176      0.000 m
+ W LON:        111 07 48.12603      0.000 m      111 07 48.17824      0.000 m
+ EL HGT:              1522.879 m    0.000 m             1522.048 m    0.000 m
+ ORTHO HGT:           1546.114 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (0202 AZ C)
+ NORTHING (Y)      3999796.924 m         570644.913 m
+ EASTING (X)        488301.418 m         284151.112 m
+ CONVERGENCE        0.07669444 deg       0.46397500 deg
+ POINT SCALE        0.99960169           0.99996173
+ COMBINED FACTOR    0.99936283           0.99972278
+
+ US NATIONAL GRID DESIGNATOR: 12SVE8830199796 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p009 (p009 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0054)
+ X:               -1891354.108 m    0.000 m         -1891355.012 m    0.000 m
+ Y:               -4629377.714 m    0.000 m         -4629376.397 m    0.000 m
+ Z:                3948381.775 m    0.000 m          3948381.648 m    0.000 m
+ LAT:           38 28 47.73268      0.000 m       38 28 47.74714      0.000 m
+ E LON:        247 46 38.27438      0.000 m      247 46 38.21933      0.000 m
+ W LON:        112 13 21.72562      0.000 m      112 13 21.78067      0.000 m
+ EL HGT:              1762.269 m    0.000 m             1761.503 m    0.000 m
+ ORTHO HGT:           1781.397 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4303 UT S)
+ NORTHING (Y)      4259774.097 m        3201494.369 m
+ EASTING (X)        393351.593 m         436938.303 m
+ CONVERGENCE        0.76088611 deg       0.44278889 deg
+ POINT SCALE        0.99974007           1.00002498
+ COMBINED FACTOR    0.99946371           0.99974854
+
+ US NATIONAL GRID DESIGNATOR: 12SUH9335159774 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p030 (p030 a  2)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0258)
+ X:               -1670489.246 m    0.000 m         -1670490.157 m    0.000 m
+ Y:               -4464886.276 m    0.000 m         -4464885.003 m    0.000 m
+ Z:                4226344.140 m    0.000 m          4226344.046 m    0.000 m
+ LAT:           41 44 59.31514      0.000 m       41 44 59.33171      0.000 m
+ E LON:        249 29 13.93312      0.000 m      249 29 13.87690      0.000 m
+ W LON:        110 30 46.06688      0.000 m      110 30 46.12310      0.000 m
+ EL HGT:              2150.497 m    0.000 m             2149.783 m    0.000 m
+ ORTHO HGT:           2164.764 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4904 WY W)
+ NORTHING (Y)      4622113.176 m         238879.747 m
+ EASTING (X)        540506.770 m         764281.819 m
+ CONVERGENCE        0.32442222 deg       0.28597222 deg
+ POINT SCALE        0.99962019           0.99995319
+ COMBINED FACTOR    0.99928313           0.99961602
+
+ US NATIONAL GRID DESIGNATOR: 12TWM4050622113 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p032 (p032 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0010)
+ X:               -1414311.170 m    0.000 m         -1414312.074 m    0.000 m
+ Y:               -4553167.694 m    0.000 m         -4553166.396 m    0.000 m
+ Z:                4225680.888 m    0.000 m          4225680.780 m    0.000 m
+ LAT:           41 44 30.00328      0.000 m       41 44 30.02161      0.000 m
+ E LON:        252 44 38.72116      0.000 m      252 44 38.66716      0.000 m
+ W LON:        107 15 21.27884      0.000 m      107 15 21.33284      0.000 m
+ EL HGT:              2168.085 m    0.000 m             2167.288 m    0.000 m
+ ORTHO HGT:           2181.645 m    0.017 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 13)         SPC (4902 WYEC)
+ NORTHING (Y)      4623553.874 m         237889.224 m
+ EASTING (X)        312411.497 m         406439.993 m
+ CONVERGENCE       -1.50236111 deg       0.05154722 deg
+ POINT SCALE        1.00003305           0.99993801
+ COMBINED FACTOR    0.99969310           0.99959809
+
+ US NATIONAL GRID DESIGNATOR: 13TCG1241123553 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p100 (p100 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0013)
+ X:               -1881970.787 m    0.000 m         -1881971.720 m    0.000 m
+ Y:               -4371104.969 m    0.000 m         -4371103.700 m    0.000 m
+ Z:                4235027.372 m    0.000 m          4235027.281 m    0.000 m
+ LAT:           41 51 24.46636      0.000 m       41 51 24.48139      0.000 m
+ E LON:        246 42 20.87568      0.000 m      246 42 20.81679      0.000 m
+ W LON:        113 17 39.12432      0.000 m      113 17 39.18321      0.000 m
+ EL HGT:              1884.127 m    0.000 m             1883.473 m    0.000 m
+ ORTHO HGT:           1898.846 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4301 UT N)
+ NORTHING (Y)      4636421.408 m        1170725.632 m
+ EASTING (X)        309568.644 m         351024.926 m
+ CONVERGENCE       -1.53131389 deg      -1.18301667 deg
+ POINT SCALE        1.00004626           1.00001275
+ COMBINED FACTOR    0.99975082           0.99971732
+
+ US NATIONAL GRID DESIGNATOR: 12TUM0956836421 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p146 (p146 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2510761.103 m    0.000 m         -2510762.063 m    0.000 m
+ Y:               -4256090.755 m    0.000 m         -4256089.422 m    0.000 m
+ Z:                4022850.942 m    0.000 m          4022850.898 m    0.000 m
+ LAT:           39 20 14.85506      0.000 m       39 20 14.86753      0.000 m
+ E LON:        239 27 45.77407      0.000 m      239 27 45.71129      0.000 m
+ W LON:        120 32 14.22593      0.000 m      120 32 14.28871      0.000 m
+ EL HGT:              2347.829 m    0.000 m             2347.290 m    0.000 m
+ ORTHO HGT:           2371.367 m    0.022 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 10)         SPC (0402 CA 2)
+ NORTHING (Y)      4357118.371 m         686483.031 m
+ EASTING (X)        712247.114 m        2126090.672 m
+ CONVERGENCE        1.56166389 deg       0.92219444 deg
+ POINT SCALE        1.00015470           0.99992438
+ COMBINED FACTOR    0.99978643           0.99955619
+
+ US NATIONAL GRID DESIGNATOR: 10SGJ1224757118 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p151 (p151 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2442201.636 m    0.000 m         -2442202.590 m    0.000 m
+ Y:               -4216877.286 m    0.000 m         -4216875.982 m    0.000 m
+ Z:                4103356.406 m    0.000 m          4103356.353 m    0.000 m
+ LAT:           40 17 20.03122      0.000 m       40 17 20.04354      0.000 m
+ E LON:        239 55 21.90530      0.000 m      239 55 21.84269      0.000 m
+ W LON:        120 04 38.09470      0.000 m      120 04 38.15731      0.000 m
+ EL HGT:              1313.577 m    0.000 m             1313.047 m    0.000 m
+ ORTHO HGT:           1336.836 m    0.022 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 10)         SPC (0401 CA 1)
+ NORTHING (Y)      4463922.456 m         607897.732 m
+ EASTING (X)        748448.461 m        2163474.161 m
+ CONVERGENCE        1.89093889 deg       1.25725833 deg
+ POINT SCALE        1.00035991           0.99993977
+ COMBINED FACTOR    1.00015381           0.99973376
+
+ US NATIONAL GRID DESIGNATOR: 10TGK4844863922 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p351 (p351 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0013)
+ X:               -1926554.223 m    0.000 m         -1926555.164 m    0.000 m
+ Y:               -4184944.735 m    0.000 m         -4184943.491 m    0.000 m
+ Z:                4399909.576 m    0.000 m          4399909.510 m    0.000 m
+ LAT:           43 52 27.87462      0.000 m       43 52 27.88960      0.000 m
+ E LON:        245 16 51.06797      0.000 m      245 16 51.00641      0.000 m
+ W LON:        114 43 08.93203      0.000 m      114 43 08.99359      0.000 m
+ EL HGT:              2693.180 m    0.000 m             2692.603 m    0.000 m
+ ORTHO HGT:           2705.657 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (1102 ID C)
+ NORTHING (Y)      4860452.637 m         245492.864 m
+ EASTING (X)        683252.569 m         442201.343 m
+ CONVERGENCE        1.58125278 deg       0.49844167 deg
+ POINT SCALE        1.00001305           0.99998844
+ COMBINED FACTOR    0.99959091           0.99956631
+
+ US NATIONAL GRID DESIGNATOR: 11TPJ8325260452 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p394 (p394 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0013)
+ X:               -2113294.937 m    0.000 m         -2113295.877 m    0.000 m
+ Y:               -4008284.575 m    0.000 m         -4008283.349 m    0.000 m
+ Z:                4475067.121 m    0.000 m          4475067.078 m    0.000 m
+ LAT:           44 50 05.55486      0.000 m       44 50 05.56862      0.000 m
+ E LON:        242 12 01.36016      0.000 m      242 12 01.29629      0.000 m
+ W LON:        117 47 58.63984      0.000 m      117 47 58.70371      0.000 m
+ EL HGT:              1011.190 m    0.000 m             1010.701 m    0.000 m
+ ORTHO HGT:           1028.264 m    0.015 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (3601 OR N)
+ NORTHING (Y)      4964918.490 m         133381.000 m
+ EASTING (X)        436796.772 m        2713468.251 m
+ CONVERGENCE        0.56380556 deg       1.91506944 deg
+ POINT SCALE        0.99964912           0.99991147
+ COMBINED FACTOR    0.99949066           0.99975296
+
+ US NATIONAL GRID DESIGNATOR: 11TMK3679664918 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      p675 (p675 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0009)
+ X:               -1827675.106 m    0.000 m         -1827676.038 m    0.000 m
+ Y:               -4365172.563 m    0.000 m         -4365171.297 m    0.000 m
+ Z:                4264139.987 m    0.000 m          4264139.898 m    0.000 m
+ LAT:           42 12 43.97909      0.000 m       42 12 43.99455      0.000 m
+ E LON:        247 16 52.29188      0.000 m      247 16 52.23310      0.000 m
+ W LON:        112 43 07.70812      0.000 m      112 43 07.76690      0.000 m
+ EL HGT:              1559.781 m    0.000 m             1559.122 m    0.000 m
+ ORTHO HGT:           1573.885 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (1101 ID E)
+ NORTHING (Y)      4674768.828 m          60739.766 m
+ EASTING (X)        358124.265 m         154409.325 m
+ CONVERGENCE       -1.15502222 deg       0.37097778 deg
+ POINT SCALE        0.99984767           0.99997293
+ COMBINED FACTOR    0.99960313           0.99972836
+
+ US NATIONAL GRID DESIGNATOR: 12TUM5812474768 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      puc2 (puc2 a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0258)
+ X:               -1745061.768 m    0.000 m         -1745062.671 m    0.000 m
+ Y:               -4603214.452 m    0.000 m         -4603213.149 m    0.000 m
+ Z:                4044436.534 m    0.000 m          4044436.426 m    0.000 m
+ LAT:           39 35 38.10058      0.000 m       39 35 38.11644      0.000 m
+ E LON:        249 14 18.47476      0.000 m      249 14 18.42001      0.000 m
+ W LON:        110 45 41.52524      0.000 m      110 45 41.57999      0.000 m
+ EL HGT:              1714.255 m    0.000 m             1713.494 m    0.000 m
+ ORTHO HGT:           1731.157 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4382714.698 m        2140209.917 m
+ EASTING (X)        520475.394 m         563425.768 m
+ CONVERGENCE        0.15198333 deg       0.47304444 deg
+ POINT SCALE        0.99960516           0.99990763
+ COMBINED FACTOR    0.99933640           0.99963879
+
+ US NATIONAL GRID DESIGNATOR: 12SWJ2047582714 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      upsa (upsa a  3)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:    0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0014)
+ X:               -2370479.288 m    0.000 m         -2370480.234 m    0.000 m
+ Y:               -4311482.026 m    0.000 m         -4311480.719 m    0.000 m
+ Z:                4046969.905 m    0.000 m          4046969.825 m    0.000 m
+ LAT:           39 37 37.58864      0.000 m       39 37 37.60091      0.000 m
+ E LON:        241 11 51.84493      0.000 m      241 11 51.78376      0.000 m
+ W LON:        118 48 08.15507      0.000 m      118 48 08.21624      0.000 m
+ EL HGT:              1233.854 m    0.000 m             1233.272 m    0.000 m
+ ORTHO HGT:           1258.148 m    0.012 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 11)         SPC (2703 NV W)
+ NORTHING (Y)      4387923.047 m        4541236.880 m
+ EASTING (X)        345320.822 m         781205.131 m
+ CONVERGENCE       -1.14969167 deg       0.13963333 deg
+ POINT SCALE        0.99989457           0.99990435
+ COMBINED FACTOR    0.99970105           0.99971083
+
+ US NATIONAL GRID DESIGNATOR: 11SLD4532087923 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      utmn (utmn a  1)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:   -0.000m (0.000m)   Y:   -0.000m (0.000m)   Z:    0.000m (0.000m)
+ ADJUST  N:   -0.000m (0.000m)   E:    0.000m (0.000m)   H:    0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0032)
+ X:               -1797378.161 m    0.000 m         -1797379.075 m    0.000 m
+ Y:               -4540683.239 m    0.000 m         -4540681.946 m    0.000 m
+ Z:                4091171.715 m    0.000 m          4091171.609 m    0.000 m
+ LAT:           40 08 39.69952      0.000 m       40 08 39.71500      0.000 m
+ E LON:        248 24 15.92496      0.000 m      248 24 15.86898      0.000 m
+ W LON:        111 35 44.07504      0.000 m      111 35 44.13102      0.000 m
+ EL HGT:              1426.992 m    0.000 m             1426.262 m    0.000 m
+ ORTHO HGT:           1444.090 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4443950.070 m        2201063.481 m
+ EASTING (X)        449268.841 m         491856.283 m
+ CONVERGENCE        0.38398611 deg       0.06122500 deg
+ POINT SCALE        0.99963168           0.99991336
+ COMBINED FACTOR    0.99940795           0.99968957
+
+ US NATIONAL GRID DESIGNATOR: 12TVK4926843950 (NAD 83)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ MARK:      zlc1 (zlc1 a  5)
+ CONSTRAIN: 3-D TIGHT
+ ADJUST  X:    0.000m (0.000m)   Y:    0.000m (0.000m)   Z:   -0.000m (0.000m)
+ ADJUST  N:    0.000m (0.000m)   E:   -0.000m (0.000m)   H:   -0.000m (0.000m)
+
+ REF FRAME:        NAD_83(2011) (2010.0000)                 IGS08 (2019.0258)
+ X:               -1808272.256 m    0.000 m         -1808273.172 m    0.000 m
+ Y:               -4486411.786 m    0.000 m         -4486410.508 m    0.000 m
+ Z:                4145302.798 m    0.000 m          4145302.692 m    0.000 m
+ LAT:           40 47 09.73909      0.000 m       40 47 09.75435      0.000 m
+ E LON:        248 02 52.21405      0.000 m      248 02 52.15745      0.000 m
+ W LON:        111 57 07.78595      0.000 m      111 57 07.84255      0.000 m
+ EL HGT:              1287.693 m    0.000 m             1286.986 m    0.000 m
+ ORTHO HGT:           1304.691 m    0.016 m  (H = h - N WHERE N = GEOID12B HGT)
+
+                 UTM COORDINATES    STATE PLANE COORDINATES
+                  UTM (Zone 12)         SPC (4302 UT C)
+ NORTHING (Y)      4515441.844 m        2272407.263 m
+ EASTING (X)        419662.709 m         461833.209 m
+ CONVERGENCE        0.62201944 deg       0.28964444 deg
+ POINT SCALE        0.99967944           1.00003669
+ COMBINED FACTOR    0.99947755           0.99983473
+
+ US NATIONAL GRID DESIGNATOR: 12TVL1966215441 (NAD 83)
+
