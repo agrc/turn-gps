@@ -1,11 +1,10 @@
 #!/usr/bin/env python
+# * coding: utf8 *
 '''
-File: autorotate.py
-Origial Author: Damien Riquet <d.riquet@gmail.com>
-Current Maintainer: Trinh Nguyen <dangtrinhnt[at]gmail[dot]com>
-Description: This script provides an auto-rotate feature of pictures
+image-fixer.py
+A module that saves an image with the rotation setting of the operating system and scales the image.
 
-USAGE: autorotate.py [-h] [--recursive] directory [directory ...]
+USAGE: image-fixer.py [-h] [--recursive] directory [directory ...]
 
 positional arguments:
   directory
