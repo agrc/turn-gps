@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "src/.env/bin/python",
+    "python.pythonPath": "C:\\_Git\\turn-gps\\src\\.env\\Scripts\\python.exe",
     "python.formatting.provider": "yapf",
     "python.formatting.yapfArgs": ["--style", "${workspaceRoot}/setup.cfg"],
     "python.linting.pylintEnabled": true,

@@ -4,7 +4,7 @@
 image-fixer.py
 A module that saves an image with the rotation setting of the operating system and scales the image.
 
-USAGE: image-fixer.py [-h] [--recursive] directory [directory ...]
+USAGE: image-fixer.py [-h] [--recursive] directory [directory ...] [--wildcard] pattern
 
 positional arguments:
   directory
@@ -12,6 +12,7 @@ positional arguments:
 optional arguments:
   -h, --help       show this help message and exit
   --recursive, -r
+  --wildcard, w
 '''
 
 import argparse
@@ -27,11 +28,12 @@ def main():
     '''
     parser = argparse.ArgumentParser()
     parser.add_argument('--dir', '-d', nargs='+')
-    parser.add_argument('--recursive', '-r', action='store_true')
+    parser.add_argument('--recursive', '-r', action='store_true', default=False)
+    parser.add_argument('--wildcard', '-w', nargs='?', default='*.jpg')
     args = parser.parse_args()
 
     for directory in args.dir:
-        process_directory(directory, args.recursive)
+        process_directory(directory, args.recursive, args.wildcard)
 
 
 def fix(path):
@@ -52,7 +54,7 @@ def fix(path):
     image.save(str(path))
 
 
-def process_directory(path, recursive=False):
+def process_directory(path, recursive, pattern):
     ''' This function processes all elements from a directory
     '''
     path = Path(path)
@@ -62,9 +64,7 @@ def process_directory(path, recursive=False):
 
         return
 
-    pattern = '*.jpg'
-
-    if recursive:
+    if recursive and pattern == '*.jpg':
         pattern = '**/*.jpg'
 
     for image in path.glob(pattern):
