@@ -1,11 +1,11 @@
-# Station naming convention
+# Station naming convention and
 
 Photos originate from G:\My Drive\GPS Utah\GPS Station Photos.
 
-Organize them into a folder and rename them with 4-digit code_name-Antenna and Receiver like below and don't add -#.jpg files to storymap.
+Organize them into a folder and rename them with 4-digit code_name-Antenna and Receiver like below and don't add `-#.jpg` files to storymap.
 
-Use CMD with wildcards to fix the case of the file extensions:
-``E:\_GitHub\turn-gps\images\stations>rename *.JPG *.jpg``
+Use CMD with wildcards to fix the case of the file extensions
+E:\_GitHub\turn-gps\images\stations>`rename *.JPG *.jpg`
 
 - `UTAI_Antelope-Island-Antenna.jpg`
 - `UTAI_Antelope-Island-Antenna-2.jpg`
@@ -16,14 +16,14 @@ Use CMD with wildcards to fix the case of the file extensions:
 - `UTAI_Antelope-Island-Rack.jpg`
 - `UTAI_Antelope-Island-etcetcetc.jpg`
 
-Copy them to C:\_Git\turn-gps\storymaps\assets\stations
+Copy them to `C:\_Git\turn-gps\storymaps\assets\stations`
 
 Open new renamed images with Windows _**Photos**_
 
-Rotate and Resize to small
+Rotate and Resize to Small
 
-Run image-fixer.py as below:
-(.env) C:\_Git\turn-gps\src>'python image-fixer.py -d ..\storymaps -r'
-(.env) C:\_Git\turn-gps\src>'python image-fixer.py -d ..\storymaps\assets\stations -w UTWE_*'
+Run `image-fixer.py` as below:
+`(.env) C:\_Git\turn-gps\src>'python image-fixer.py -d ..\storymaps -r'`
+`(.env) C:\_Git\turn-gps\src>'python image-fixer.py -d ..\storymaps\assets\stations -w UTWE_*'`
 or
-(.env) C:\_Git\turn-gps>'python src\image-fixer.py -d storymaps/test -w IDHD_*'
+`(.env) C:\_Git\turn-gps>'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
