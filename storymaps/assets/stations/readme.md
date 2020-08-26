@@ -32,7 +32,9 @@ Run `image-fixer.py` on new images
 or
 - `(.env) C:\_Git\turn-gps> 'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
 
-### Commit changes to a New Branch. _Compress Images_ will happen after the pull request
+## Commit changes to a `New Branch` and `Publish branch`
+
+_Compress Images_ will happen after the pull request
 ---
 Insert Images and Tabs HowTo:
 - click overview tab
