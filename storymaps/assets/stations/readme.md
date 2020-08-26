@@ -15,18 +15,20 @@ Organize them into a folder and rename them with 4-digit code_name-Antenna and R
 
 Use CMD with wildcards to fix the case of the file extensions
 
-G:\My Drive\GPS Utah\GPS Station Photos\Richfield>`rename *.JPG *.jpg`
+ex. G:\My Drive\GPS Utah\GPS Station Photos\Richfield>`rename *.JPG *.jpg`
 
 Copy them to `C:\_Git\turn-gps\storymaps\assets\stations`
 
-Open new renamed images with _Windows Photos_
+Open new images with _Windows Photos_
 
-Rotate and Resize to Small
+Rotate and Resize to Small -> Save and overwrite existing
 
-Run `image-fixer.py` as below
+Run `image-fixer.py` on new images
 
-- `(.env) C:\_Git\turn-gps\src>'python image-fixer.py -d ..\storymaps -r'`
-- `(.env) C:\_Git\turn-gps\src>'python image-fixer.py -d ..\storymaps\assets\stations -w UTWE_*'`
+- C:\_Git\turn-gps\src> `.env\Scripts\activate.bat`
+
+- `(.env) C:\_Git\turn-gps\src> 'python image-fixer.py -d ..\storymaps -r'`
+- `(.env) C:\_Git\turn-gps\src> 'python image-fixer.py -d ..\storymaps\assets\stations -w UTWE_*'`
 or
 - `(.env) C:\_Git\turn-gps> 'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
 
