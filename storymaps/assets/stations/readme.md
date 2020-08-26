@@ -32,7 +32,7 @@ Run `image-fixer.py` on new images
 or
 - `(.env) C:\_Git\turn-gps> 'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
 
-### Commit changes to a `New Branch` and `Bring my changes over` then `Publish Branch` (in desktop)
+### Commit changes to a `New Branch` and `Bring my changes over` then `Publish Branch` or `Push origin` (in desktop)
 ### Open Pull Request in GitHub then `Rebase or Squash and merge`  
 _Compress Images_ will happen after the pull request....maybe  
 ### After changes are merged `Pull origin` to sync Desktop with GitHub
