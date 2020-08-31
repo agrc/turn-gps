@@ -42,7 +42,7 @@ Insert Images and Tabs HowTo:
 - zoom to location
 - click station to bring up pop up
 - ADD new tab
-- ![Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration]({% https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/_Tab_Configuration.png)
+- ![Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration]({% https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/_Tab_Configuration.png %)
 - add images (Receiver top & Antenna bottom)
 - No Caption Just add text (ex. Wendover Antenna) Bold, 20, left aligned
 ---
