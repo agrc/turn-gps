@@ -42,8 +42,8 @@ Insert Images and Tabs HowTo:
 - zoom to location
 - click station to bring up pop up
 - ADD new tab
-- Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration
-- add images
+- ![Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration]({% https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/_Tab_Configuration.png)
+- add images (Receiver top & Antenna bottom)
 - No Caption Just add text (ex. Wendover Antenna) Bold, 20, left aligned
 ---
 Examples URLs for linking to images:
@@ -52,6 +52,6 @@ Examples URLs for linking to images:
 ---
 The _STATUS_ field in CADASTRE.TURN_GPS_STATIONS controls the visibility of stations in the storymap. _STATUS_ = O will make them visible. The acceptable _STATUS_ values are:  
 
-O = On
-P = Proposed
-R = Removed
+O = On  
+P = Proposed  
+R = Removed  
