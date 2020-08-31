@@ -33,16 +33,17 @@ or
 - `(.env) C:\_Git\turn-gps> 'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
 
 ### Commit changes to a `New Branch` and `Bring my changes over` then `Publish Branch` or `Push origin` (in desktop)
-### Open Pull Request in GitHub then `Rebase or Squash and merge`  
+### Open Pull Request in GitHub then `Rebase and merge`  
 _Compress Images_ will happen after the pull request....maybe  
-### After changes are merged `Pull origin` to sync Desktop with GitHub
+### After changes are merged `Pull origin` TO MASTER to sync Desktop with GitHub
 ---
 Insert Images and Tabs HowTo:
 - click overview tab
 - zoom to location
 - click station to bring up pop up
 - ADD new tab
-- ![Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration](https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/_Tab_Configuration.png)
+- Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration
+![](https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/_Tab_Configuration.png)
 - add images (Receiver top & Antenna bottom)
 - No Caption Just add text (ex. Wendover Antenna) Bold, 20, left aligned
 ---
