@@ -11,5 +11,4 @@
 1. pip install packageS
 
    `python -m pip install -U pip`
-   `python -m pip install -U Pillow`
-   `python -m pip install -U yapf pylint`
+   `python -m pip install -U Pillow yapf pylint`
