@@ -25,14 +25,16 @@ Rotate and Resize to Small -> Save and overwrite existing
 
 Run `image-fixer.py` on new images
 
-- C:\_Git\turn-gps\src> `.env\Scripts\activate.bat`
+- `DON'T DO THIS` C:\_Git\turn-gps\src> `.env\Scripts\activate.bat` `DON'T DO THIS, Instead:`
 
-- `(.env) C:\_Git\turn-gps\src> 'python image-fixer.py -d ..\storymaps -r'`
-- `(.env) C:\_Git\turn-gps\src> 'python image-fixer.py -d ..\storymaps\assets\stations -w UTWE_*'`
+- activate arcgispro-py3-clone
+
+- `(arcgispro-py3-clone) C:\_Git\turn-gps\src> 'python image-fixer.py -d ..\storymaps -r'`
+- `(arcgispro-py3-clone) C:\_Git\turn-gps\src> 'python image-fixer.py -d ..\storymaps\assets\stations -w UTWE_*'`
 or
-- `(.env) C:\_Git\turn-gps> 'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
+- `(arcgispro-py3-clone) C:\_Git\turn-gps> 'python src\image-fixer.py -d storymaps/test -w IDHD_*'`
 
-### Commit changes to a `New Branch` and `Bring my changes over` then `Publish Branch` or `Push origin` (in desktop)
+### Commit changes to a `New Branch` and `Bring my changes over`, `commit changes` then `Publish Branch` or `Push origin` (in desktop)
 ### Open Pull Request in GitHub then `Rebase and merge`  
 _Compress Images_ will happen after the pull request....maybe  
 ### After changes are merged `Pull origin` TO MASTER to sync Desktop with GitHub
