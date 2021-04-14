@@ -39,7 +39,7 @@ or
 _Compress Images_ will happen after the pull request....maybe  
 ### After changes are merged `Pull origin` TO MASTER to sync Desktop with GitHub
 ---
-Insert Images and Tabs HowTo:
+Insert Images and Tabs to [Story Map](http://arcg.is/1Wa8Ov) HowTo:
 - click overview tab
 - zoom to location
 - click station to bring up pop up
