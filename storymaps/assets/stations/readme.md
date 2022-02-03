@@ -2,13 +2,13 @@
 
 Photos originate from G:\My Drive\GPS Utah\GPS Station Photos.
 
-Organize them into a folder and rename them with 4-digit code_name-Antenna and Receiver like below and don't add `-#`.jpg files to storymap.
+Organize them into a folder and rename them with 4-digit code_name-Antenna and Receiver like below. We most likely will not use the `-#`.jpg images.
 
 - `UTAI_Antelope-Island-Antenna.jpg`
 - `UTAI_Antelope-Island-Antenna-2.jpg`
 - `UTAI_Antelope-Island-Receiver.jpg`
 - `UTAI_Antelope-Island-Receiver-2.jpg`
-  - most likely don't use these image in storymap
+  - most likely don't need these
 - `UTAI_Antelope-Island-Desk.jpg`
 - `UTAI_Antelope-Island-Rack.jpg`
 - `UTAI_Antelope-Island-etcetcetc.jpg`
@@ -25,7 +25,7 @@ Rotate and Resize to Small -> Save and overwrite existing
 
 Run `image-fixer.py` on new images
 
-- `DON'T DO THIS` C:\_Git\turn-gps\src> `.env\Scripts\activate.bat` `DON'T DO THIS, Instead:`
+- `DON'T DO THIS` C:\_Git\turn-gps\src> `.env\Scripts\activate.bat` `DO THIS Instead:`
 
 - activate arcgispro-py3-clone
 
@@ -38,16 +38,7 @@ or
 ### Open Pull Request in GitHub then `Rebase and merge`  
 _Compress Images_ will happen after the pull request....maybe  
 ### After changes are merged `Pull origin` TO MASTER to sync Desktop with GitHub
----
-Insert Images and Tabs to [Story Map](http://arcg.is/1Wa8Ov) HowTo:
-- click overview tab
-- zoom to location
-- click station to bring up pop up
-- ADD new tab
-- Edit Tab -> Pop-up -> Custom Configuration -> MAP POP-UP -> Saved the pop-up configuration
-![](https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/_Tab_Configuration.png)
-- add images (Receiver top & Antenna bottom)
-- No Caption Just add text (ex. Wendover Antenna) Bold, 20, left aligned
+Edit the layer SGID.CADASTRE.TURN_GPS_Stations and calculate 'Photos = Y' for thestations with new photos
 ---
 Examples URLs for linking to images:
 - https://raw.githubusercontent.com/agrc/turn-gps/master/storymaps/assets/stations/IDHD_Homedale-Antenna.jpg
